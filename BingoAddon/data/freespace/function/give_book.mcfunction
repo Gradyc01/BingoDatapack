@@ -1,0 +1,1 @@
+give @s book[max_stack_size=1,custom_name='{"bold":true,"color":"gold","text":"Hades\'s Book [Right Click]"}',custom_data={nobingo:1,freespace:1},food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000},enchantment_glint_override=true] 1

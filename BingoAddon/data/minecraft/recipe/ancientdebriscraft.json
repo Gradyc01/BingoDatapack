@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "ata",
+      "oxo",
+      "bWb"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:gold_block"
+      },
+      "o": {
+        "item": "minecraft:blaze_powder"
+      },
+      "x": {
+        "item": "minecraft:nether_star"
+      },
+      "t": {
+        "item": "minecraft:magma_cream"
+      },
+      "a": {
+        "item": "minecraft:diamond"
+      },
+      "b": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+    "id": "minecraft:ancient_debris",
+    "count": 1
+    }
+  }

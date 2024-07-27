@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "jeweapons:book_proj"
+        }
+      }
+    },
+    "rewards": {
+      "function": "countcraft:crafts/book_proj"
+    }
+  }

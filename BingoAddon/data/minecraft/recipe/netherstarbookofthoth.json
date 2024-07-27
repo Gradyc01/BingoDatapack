@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z#Y",
+    "#X#",
+    "Y#Z"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "minecraft:book"
+    },
+    "Z": {
+      "item": "minecraft:fire_charge"
+    },
+    "Y": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:flame": 1,
+        "minecraft:sharpness": 4,
+        "minecraft:fire_aspect": 1,
+        "minecraft:unbreaking": 3,
+        "minecraft:efficiency": 4,
+        "minecraft:looting": 3,
+        "minecraft:fortune": 3,
+        "minecraft:power": 4,
+        "minecraft:infinity": 1,
+        "minecraft:mending": 1
+      },
+      "minecraft:custom_name": "{\"text\":\"Book Of Thoth\", \"color\":\"#FFFF00\", \"italic\": false}",
+      "minecraft:lore": [
+        "{\"text\":\"of old\"}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "YZY",
+      "YXY",
+      "YZY"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:firework_rocket"
+      },
+      "Y": {
+        "item": "minecraft:orange_stained_glass"
+      },
+      "Z": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:blaze_rod"
+    }
+  }

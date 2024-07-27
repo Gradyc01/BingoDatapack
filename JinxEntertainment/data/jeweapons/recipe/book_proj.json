@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "Enchanted Book",
+    "pattern": [
+      "   ",
+      " xx",
+      " xi"
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:paper"
+      },
+      "i": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:projectile_protection": 1
+        },
+        "custom_data": "{nobingo:1}"
+      }
+    }
+  }

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "ZYZ",
+      " Y "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:raw_iron"
+      },
+      "Y": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:coal"
+      }
+    },
+    "result": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 1
+        },
+        "minecraft:repair_cost": 999,
+        "minecraft:custom_name": "{\"text\":\"Quick Pick\", \"color\":\"#00FFFF\", \"italic\": false}"
+      }
+    }
+  }
+  

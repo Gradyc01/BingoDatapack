@@ -1,0 +1,1 @@
+function souls:addsouls/general {base:100, bonus:0, adv:"souls:killed_player"}

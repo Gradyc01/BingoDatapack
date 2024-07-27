@@ -1,0 +1,2 @@
+scoreboard players set alternatingScoreboards booleans 1
+function bingoaddon:alternatingscoreboards/boards/1_items_obtained

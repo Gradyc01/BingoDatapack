@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:fire_aspect",
+                "minecraft:looting",
+                "minecraft:flame",
+                "minecraft:sharpness",
+                "minecraft:power",
+                "minecraft:fortune",
+                "minecraft:efficiency",
+                "minecraft:protection",
+                "minecraft:silk_touch",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ],
+              "only_compatible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

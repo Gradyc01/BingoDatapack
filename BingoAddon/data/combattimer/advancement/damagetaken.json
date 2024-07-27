@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "combattimer:combattimer"
+  }
+}

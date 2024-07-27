@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " Z ",
+      "XYX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "Y": {
+        "item": "minecraft:sugar"
+      },
+      "Z": {
+        "tag": "minecraft:saplings"
+      }
+    },
+    "result": {
+      "id": "minecraft:sugar_cane",
+      "count": 4
+    }
+  }

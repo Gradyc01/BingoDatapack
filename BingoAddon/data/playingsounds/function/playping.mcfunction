@@ -1,0 +1,1 @@
+execute positioned as @a run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 200 2

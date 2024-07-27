@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ZXZ",
+      "ZYZ"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "minecraft:redstone_block"
+      },
+      "Z": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "id": "minecraft:diamond_helmet",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:protection": 1,
+          "minecraft:fire_protection": 1,
+          "minecraft:aqua_affinity": 3
+        },
+        "minecraft:repair_cost": 999,
+        "minecraft:custom_name": "{\"text\":\"Tarnhelm\", \"color\":\"#FF0000\", \"italic\": false}"
+      }
+    }
+  }

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "Y": {
+      "item": "minecraft:iron_sword"
+    },
+    "Z": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:looting": 2,
+        "minecraft:smite": 2,
+        "minecraft:bane_of_arthropods": 2
+      },
+      "minecraft:repair_cost": 999,
+      "minecraft:custom_name": "{\"text\":\"Vorpal Sword\", \"color\": \"#00FFFF\"}"
+    }
+  }
+}

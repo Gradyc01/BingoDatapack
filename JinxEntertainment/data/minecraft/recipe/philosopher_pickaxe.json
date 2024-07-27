@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "axa",
+    "twt",
+    " w "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "minecraft:gold_ingot"
+    },
+    "t": {
+      "item": "minecraft:lapis_block"
+    },
+    "a": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+      "minecraft:custom_name": "{\"bold\":true,\"color\":\"blue\",\"text\":\"Philospher Pickaxe\"}",
+      "minecraft:max_damage": 4,
+      "minecraft:repair_cost": 999,
+      "minecraft:enchantments": {
+        "minecraft:fortune": 2,
+        "minecraft:efficiency": 3
+      },
+      "minecraft:lore": [
+        "{\"text\":\"When in doubt think it out\"}"
+      ],
+      "minecraft:custom_data": "{nobingo:1}"
+    }
+  }
+}

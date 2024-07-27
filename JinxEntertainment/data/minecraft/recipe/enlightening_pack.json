@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " Y ",
+      "YXY",
+      " Y "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:glass_bottle"
+      },
+      "Y": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "result": {
+      "id": "minecraft:experience_bottle",
+      "count": 8,
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Enlightening Pack\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "repair_cost": 999
+      }
+    }
+  }

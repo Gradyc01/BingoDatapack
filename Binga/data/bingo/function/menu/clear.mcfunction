@@ -1,0 +1,1 @@
+$clear @s $(item){menu:true}

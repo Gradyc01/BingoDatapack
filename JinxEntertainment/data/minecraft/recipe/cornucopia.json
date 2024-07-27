@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "XYX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:carrot"
+      },
+      "Y": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "result": {
+      "id": "minecraft:golden_carrot",
+      "count": 3,
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Cornucopia\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:food": {
+          "nutrition": 0,
+          "saturation": 0,
+          "can_always_eat": true,
+          "eat_seconds": 0.1,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 240,
+                "show_particles": true,
+                "show_icon": true
+              }
+            }
+          ]
+        },
+        "custom_data": "{nobingo:1}",
+        "repair_cost": 999
+      }
+    }
+  }

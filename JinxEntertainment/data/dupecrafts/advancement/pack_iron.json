@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "dupecrafts:pack_iron"
+        }
+      }
+    },
+    "rewards": {
+      "function": "dupecrafts:crafts/pack_iron"
+    }
+  }

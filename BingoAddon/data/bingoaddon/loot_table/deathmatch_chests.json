@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "bingoaddon:deathmatch_combat",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "bingoaddon:deathmatch_enchantedbook",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }

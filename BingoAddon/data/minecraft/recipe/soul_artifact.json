@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "Y#Y",
+      "ZXW",
+      "YYY"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:player_head"
+      },
+      "Y": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Z": {
+        "item": "minecraft:bow"
+      },
+      "W": {
+        "item": "minecraft:crossbow"
+      },
+      "#": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "id": "minecraft:ghast_tear",
+      "count": 1
+    }
+  }

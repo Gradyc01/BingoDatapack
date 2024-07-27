@@ -1,0 +1,1 @@
+function souls:addsouls/general {base:10, bonus:5, adv:"souls:killed_nether"}

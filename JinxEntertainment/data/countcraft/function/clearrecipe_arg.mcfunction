@@ -1,0 +1,1 @@
+$execute as @a if score @s $(tag) >= ?max $(tag) run recipe take @s $(recipe)

@@ -1,0 +1,1 @@
+execute as @a[scores={DeathCount=1..}] run function bingoaddon:deathpenalty/set_deathtimer

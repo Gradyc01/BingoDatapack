@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YX ",
+    "ZZZ",
+    "Z Z"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:saddle"
+    },
+    "Y": {
+      "item": "minecraft:player_head"
+    },
+    "Z": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "minecraft:skeleton_horse_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:skeleton_horse"
+      },
+    "minecraft:custom_name": "{\"text\":\"Daredevil\", \"color\": \"#00FFFF\"}"
+    }
+  }
+}

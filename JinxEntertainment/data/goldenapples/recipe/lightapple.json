@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " i ",
+      "iIi",
+      " i "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:apple"
+      },
+      "i": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "id": "golden_apple"
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "dupecrafts:dupe_apple"
+        }
+      }
+    },
+    "rewards": {
+      "function": "dupecrafts:crafts/dupe_apple"
+    }
+}

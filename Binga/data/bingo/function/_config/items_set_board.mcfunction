@@ -1,0 +1,30 @@
+
+scoreboard players set easyItems booleans 0
+scoreboard players set mediumItems booleans 0
+scoreboard players set hardItems booleans 0
+data remove storage bingo:data PossibleItems
+data modify storage bingo:data PossibleItems append value "bell"
+data modify storage bingo:data PossibleItems append value "tnt"
+data modify storage bingo:data PossibleItems append value "bone_block"
+data modify storage bingo:data PossibleItems append value "orange_stained_glass"
+data modify storage bingo:data PossibleItems append value "dried_kelp_block"
+data modify storage bingo:data PossibleItems append value "sea_lantern"
+data modify storage bingo:data PossibleItems append value "spyglass"
+data modify storage bingo:data PossibleItems append value "lily_pad"
+data modify storage bingo:data PossibleItems append value "respawn_anchor"
+data modify storage bingo:data PossibleItems append value "ender_eye"
+data modify storage bingo:data PossibleItems append value "dead_bubble_coral_fan"
+data modify storage bingo:data PossibleItems append value "scaffolding"
+data modify storage bingo:data PossibleItems append value "cookie"
+data modify storage bingo:data PossibleItems append value "end_crystal"
+data modify storage bingo:data PossibleItems append value "heart_of_the_sea"
+data modify storage bingo:data PossibleItems append value "totem_of_undying"
+data modify storage bingo:data PossibleItems append value "netherite_helmet"
+data modify storage bingo:data PossibleItems append value "netherite_chestplate"
+data modify storage bingo:data PossibleItems append value "netherite_leggings"
+data modify storage bingo:data PossibleItems append value "netherite_boots"
+data modify storage bingo:data PossibleItems append value "beacon"
+data modify storage bingo:data PossibleItems append value "elytra"
+data modify storage bingo:data PossibleItems append value "player_head"
+data modify storage bingo:data PossibleItems append value "goat_horn"
+data modify storage bingo:data PossibleItems append value "name_tag"

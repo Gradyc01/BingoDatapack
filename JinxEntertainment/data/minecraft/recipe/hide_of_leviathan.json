@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AXA",
+      "ZwZ",
+      "Y Y"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:water_bucket"
+      },
+      "Y": {
+        "item": "minecraft:lily_pad"
+      },
+      "Z": {
+        "item": "minecraft:diamond"
+      },
+      "w": {
+        "item": "minecraft:diamond_leggings"
+      },
+      "A": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "result": {
+      "id": "minecraft:diamond_leggings",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:protection": 4,
+          "minecraft:aqua_affinity": 1,
+          "minecraft:respiration": 3
+        },
+        "minecraft:repair_cost": 999,
+        "minecraft:custom_name": "{\"text\":\"Hide of Leviathan\", \"color\":\"#00FFFF\", \"italic\": false}"
+      }
+    }
+  }

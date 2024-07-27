@@ -1,0 +1,17 @@
+{
+    "values": [
+      "#minecraft:arthropod",
+      "#minecraft:raiders",
+      "#minecraft:skeletons",
+      "#minecraft:zombies",
+      "creeper",
+      "blaze",
+      "enderman",
+      "magma_cube",
+      "slime",
+      "piglin",
+      "piglin_brute",
+      "zombified_piglin"
+    ]
+  }
+  

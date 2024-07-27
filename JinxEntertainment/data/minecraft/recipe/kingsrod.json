@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " X ",
+      "YWY",
+      " Z "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:fishing_rod"
+      },
+      "Y": {
+        "item": "minecraft:lily_pad"
+      },
+      "Z": {
+        "item": "minecraft:water_bucket"
+      },
+      "W": {
+        "item": "minecraft:compass"
+      }
+    },
+    "result": {
+      "id": "minecraft:fishing_rod",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"King's Rod\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:enchantments": {
+          "minecraft:luck_of_the_sea": 10,
+          "minecraft:unbreaking": 10,
+          "minecraft:lure": 5
+        },
+        "minecraft:repair_cost": 999,
+        "minecraft:custom_data": "{nobingo:1,kingsrod:1}"
+      }
+    }
+  }

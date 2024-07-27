@@ -1,0 +1,1 @@
+function souls:addsouls/general {base:5, bonus:2, adv:"souls:killed_overworld"}

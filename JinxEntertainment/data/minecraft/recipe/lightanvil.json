@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "iii",
+      " I ",
+      "iii"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "id": "minecraft:anvil",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Light Anvil\", \"color\":\"#00FFFF\", \"italic\": false}"
+      }
+    }
+  }

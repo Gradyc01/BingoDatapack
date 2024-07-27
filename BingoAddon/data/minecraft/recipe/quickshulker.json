@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wxw",
+    "xtx",
+    "wxw"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "minecraft:leather"
+    },
+    "t": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "id": "minecraft:shulker_box"
+  }
+}

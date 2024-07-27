@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 0.1,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "amplifier": 1,
+                        "duration": 200
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:speed",
+                        "amplifier": 1,
+                        "duration": 140
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_portal_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_name": "{\"text\":\"Enlightened\",\"color\":\"#00FFFF\"}",
+                "minecraft:lore": [
+                  "{\"text\":\"Travel To The Stars\"}"
+                ],
+                "minecraft:custom_data": "{enlightened:1}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enlightened": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

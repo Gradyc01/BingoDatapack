@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "XUW",
+      "ZYZ",
+      "ZZZ"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:writable_book"
+      },
+      "Y": {
+        "item": "minecraft:map"
+      },
+      "Z": {
+        "item": "minecraft:emerald"
+      },
+      "W": {
+        "item": "minecraft:ender_eye"
+      },
+      "U": {
+        "item": "nether_star"
+      }
+    },
+    "result": {
+    "id": "minecraft:command_block",
+        "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:custom_name": "{\"text\":\"Echolocator\", \"color\":\"#00FFFF\"}",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": "{nobingo:1}"
+        }
+    }
+  }

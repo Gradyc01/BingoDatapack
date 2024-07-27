@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ZXZ",
+      " Y "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:glistering_melon_slice"
+      },
+      "Y": {
+        "item": "minecraft:glass_bottle"
+      },
+      "Z": {
+        "item": "minecraft:player_head"
+      }
+    },
+    "result": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:custom_name": "{\"color\":\"#00FFFF\",\"text\":\"Panacea\", \"italic\": false}",
+        "minecraft:potion_contents": {
+          "custom_color": 16711914,
+          "custom_effects": [
+            {
+              "id": "minecraft:instant_health",
+              "amplifier": 4,
+              "duration": 20
+            }
+          ]
+        },
+        "repair_cost": 555,
+        "custom_data": "{nobingo:1}"
+      }
+    }
+  }

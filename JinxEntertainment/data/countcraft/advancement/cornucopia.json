@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:cornucopia"
+        }
+      }
+    },
+    "rewards": {
+      "function": "countcraft:crafts/cornucopia"
+    }
+  }

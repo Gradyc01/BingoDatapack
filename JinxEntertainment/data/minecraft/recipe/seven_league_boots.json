@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ZXZ",
+      "ZWZ",
+      "ZYZ"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:ender_pearl"
+      },
+      "Y": {
+        "item": "minecraft:water_bucket"
+      },
+      "Z": {
+        "item": "minecraft:feather"
+      },
+      "W": {
+        "item": "minecraft:diamond_boots"
+      }
+    },
+    "result": {
+      "id": "minecraft:diamond_boots",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:protection": 3,
+          "minecraft:feather_falling": 4
+        },
+        "minecraft:repair_cost": 999,
+        "minecraft:custom_name": "{\"text\":\"Seven League Boots\", \"color\":\"#00FFFF\", \"italic\": false}"
+      }
+    }
+  }

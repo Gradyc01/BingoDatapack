@@ -1,0 +1,2 @@
+$execute if score $(obj) booleans matches 1 run tellraw @a [{"text": "  $(text)  ", "color": "gold", "bold": true},{"text": "Enabled", "color": "green", "bold": false}]
+$execute if score $(obj) booleans matches 0 run tellraw @a [{"text": "  $(text)  ", "color": "gold", "bold": true},{"text": "Disabled", "color": "red", "bold": false}]

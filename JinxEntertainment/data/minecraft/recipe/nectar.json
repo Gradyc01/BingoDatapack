@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " X ",
+      "ZYZ",
+      " W "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:emerald"
+      },
+      "Y": {
+        "item": "minecraft:melon_slice"
+      },
+      "Z": {
+        "item": "minecraft:gold_ingot"
+      },
+      "W": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Nectar\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:awkward",
+          "custom_color": 15597823,
+          "custom_effects": [
+            {
+              "id": "minecraft:regeneration",
+              "amplifier": 2,
+              "duration": 290
+            }
+          ]
+        }
+      }
+    }
+  }

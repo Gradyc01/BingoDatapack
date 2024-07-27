@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " X ",
+      " W ",
+      "ZYZ"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:magma_cream"
+      },
+      "Y": {
+        "tag": "minecraft:anvil"
+      },
+      "Z": {
+        "item": "minecraft:obsidian"
+      },
+      "W": {
+        "item": "minecraft:diamond_chestplate"
+      }
+    },
+    "result": {
+      "id": "minecraft:diamond_chestplate",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Dragon Armor\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:enchantments": {
+          "minecraft:protection": 4
+        },
+        "minecraft:repair_cost": 999
+      }
+    }
+  }

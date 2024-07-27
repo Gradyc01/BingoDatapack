@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#minecraft:caveonly"
+              }
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "souls:supermob"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "souls:enabled"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "souls:addsouls/killed_supermob"
+    }
+  }

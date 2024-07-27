@@ -1,0 +1,78 @@
+{
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blaze_rod"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magma_cream"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nether_wart"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ghast_tear"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_name": "{\"text\":\"Echolocator: Fortress\", \"color\":\"#00FFFF\"}",
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 1000000
+                  },
+                  "minecraft:custom_data": "{nobingo:1,echolocator:1,structure:9}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_name": "{\"text\":\"Echolocator: Bastion\", \"color\":\"#00FFFF\"}",
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 1000000
+                  },
+                  "minecraft:custom_data": "{nobingo:1,echolocator:1,structure:10}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

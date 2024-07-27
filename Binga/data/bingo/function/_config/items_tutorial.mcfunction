@@ -1,0 +1,30 @@
+
+scoreboard players set easyItems booleans 0
+scoreboard players set mediumItems booleans 0
+scoreboard players set hardItems booleans 0
+data remove storage bingo:data PossibleItems
+data modify storage bingo:data PossibleItems append value "wheat_seeds"
+data modify storage bingo:data PossibleItems append value "tnt"
+data modify storage bingo:data PossibleItems append value "bone_block"
+data modify storage bingo:data PossibleItems append value "sand"
+data modify storage bingo:data PossibleItems append value "feather"
+data modify storage bingo:data PossibleItems append value "fishing_rod"
+data modify storage bingo:data PossibleItems append value "iron_ingot"
+data modify storage bingo:data PossibleItems append value "gold_ingot"
+data modify storage bingo:data PossibleItems append value "leather"
+data modify storage bingo:data PossibleItems append value "rotten_flesh"
+data modify storage bingo:data PossibleItems append value "white_wool"
+data modify storage bingo:data PossibleItems append value "sugar"
+data modify storage bingo:data PossibleItems append value "stone"
+data modify storage bingo:data PossibleItems append value "flint"
+data modify storage bingo:data PossibleItems append value "orange_dye"
+data modify storage bingo:data PossibleItems append value "dirt"
+data modify storage bingo:data PossibleItems append value "coal"
+data modify storage bingo:data PossibleItems append value "lily_pad"
+data modify storage bingo:data PossibleItems append value "mossy_cobblestone"
+data modify storage bingo:data PossibleItems append value "potion"
+data modify storage bingo:data PossibleItems append value "water_bucket"
+data modify storage bingo:data PossibleItems append value "brick"
+data modify storage bingo:data PossibleItems append value "pufferfish"
+data modify storage bingo:data PossibleItems append value "book"
+data modify storage bingo:data PossibleItems append value "lightning_rod"

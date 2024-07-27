@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:potion_of_velocity"
+        }
+      }
+    },
+    "rewards": {
+      "function": "countcraft:crafts/potion_of_velocity"
+    }
+  }

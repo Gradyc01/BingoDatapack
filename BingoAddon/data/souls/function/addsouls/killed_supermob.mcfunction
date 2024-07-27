@@ -1,0 +1,1 @@
+function souls:addsouls/general {base:35, bonus:5, adv:"souls:killed_supermob"}

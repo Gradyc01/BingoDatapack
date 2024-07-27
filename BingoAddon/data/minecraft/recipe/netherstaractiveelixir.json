@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z#Z",
+    "YTY",
+    "WXW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_sword"
+    },
+    "X": {
+      "item": "minecraft:nether_star"
+    },
+    "Y": {
+      "item": "minecraft:blaze_powder"
+    },
+    "Z": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "count": 1,
+    "components": {
+      "custom_name": "{\"text\":\"Active Elixir\", \"color\":\"#00FFFF\", \"italic\": false}",
+      "lore": [
+        "{\"text\":\"Enraged\"}"
+      ],
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward",
+        "custom_color": 0,
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 2,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 2,
+            "duration": 200
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 1,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:strength",
+            "amplifier": 1,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 4,
+            "duration": 400
+          }
+        ]
+      }
+    }
+  }
+}

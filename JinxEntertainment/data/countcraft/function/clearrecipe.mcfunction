@@ -1,0 +1,1 @@
+function countcraft:clearrecipe_arg with storage je:recipeclear
