@@ -5,15 +5,20 @@ setblock ~5 ~101 ~-5 air
 setblock ~-5 ~101 ~5 air
 setblock ~-5 ~101 ~-5 air
 
-fill ~3 ~101 ~5 ~-3 ~101 ~5 air
-fill ~3 ~101 ~-5 ~-3 ~101 ~-5 air
-fill ~5 ~101 ~3 ~5 ~101 ~-3 air
-fill ~-5 ~101 ~3 ~-5 ~101 ~-3 air
+fill ~3 ~101 ~5 ~-3 ~101 ~5 quartz_slab
+fill ~3 ~101 ~-5 ~-3 ~101 ~-5 quartz_slab
+fill ~5 ~101 ~3 ~5 ~101 ~-3 quartz_slab
+fill ~-5 ~101 ~3 ~-5 ~101 ~-3 quartz_slab
 
 fill ~1 ~101 ~5 ~-1 ~101 ~5 quartz_bricks
 fill ~1 ~101 ~-5 ~-1 ~101 ~-5 quartz_bricks
 fill ~5 ~101 ~1 ~5 ~101 ~-1 quartz_bricks
 fill ~-5 ~101 ~1 ~-5 ~101 ~-1 quartz_bricks
+
+fill ~2 ~101 ~6 ~-2 ~101 ~6 quartz_slab
+fill ~2 ~101 ~-6 ~-2 ~101 ~-6 quartz_slab
+fill ~6 ~101 ~2 ~6 ~101 ~-2 quartz_slab
+fill ~-6 ~101 ~2 ~-6 ~101 ~-2 quartz_slab
 
 fill ~2 ~101 ~4 ~-2 ~101 ~4 quartz_bricks
 fill ~2 ~101 ~-4 ~-2 ~101 ~-4 quartz_bricks

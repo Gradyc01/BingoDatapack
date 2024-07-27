@@ -1,4 +1,7 @@
-execute in overworld positioned as @e[type=armor_stand, name="SpawnCoords"] run setblock ~18 ~105 ~-5 air
+# execute in overworld positioned as @e[type=armor_stand, name="SpawnCoords"] run setblock ~18 ~105 ~-5 air
+kill @e[tag=startgame]
+advancement revoke @s only bingoaddon:vil_startgame
+
 tag @a add not_ready
 
 schedule function bingoaddon:lobbyarea/queuelistener/failed 30s
