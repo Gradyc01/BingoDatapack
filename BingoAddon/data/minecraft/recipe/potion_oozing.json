@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "WYW",
+      "Z#Z"
+    ],
+    "key": {
+      "X": {
+        "item": "magma_cream"
+      },
+      "Y": {
+        "item": "minecraft:nether_star"
+      },
+      "Z": {
+        "item": "mossy_cobblestone"
+      },
+      "#": {
+        "item": "composter"
+      },
+      "W": {
+        "item": "lily_pad"
+      }
+    },
+    "result": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Cube Converter\", \"color\":\"green\", \"italic\": false}",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:awkward",
+          "custom_color": 1232671,
+          "custom_effects": [
+            {
+              "id": "minecraft:oozing",
+              "amplifier": 0,
+              "duration": 3600,
+              "show_particles": true
+            }
+          ]
+        }
+      }
+    }
+  }

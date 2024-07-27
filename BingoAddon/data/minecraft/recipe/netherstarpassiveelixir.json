@@ -40,27 +40,27 @@
           {
             "id": "minecraft:speed",
             "amplifier": 0,
-            "duration": 12000
+            "duration": 24000
           },
           {
             "id": "minecraft:regeneration",
             "amplifier": 0,
-            "duration": 12000
+            "duration": 24000
           },
           {
             "id": "minecraft:resistance",
             "amplifier": 0,
-            "duration": 12000
+            "duration": 24000
           },
           {
             "id": "minecraft:fire_resistance",
             "amplifier": 0,
-            "duration": 12000
+            "duration": 24000
           },
           {
             "id": "minecraft:luck",
             "amplifier": 2,
-            "duration": 12000
+            "duration": 24000
           }
         ]
       }

@@ -1,2 +1,2 @@
 kill @e[tag=gametype]
-$execute positioned as @e[type=armor_stand, name="SpawnCoords"] run summon armor_stand ~18 ~104 ~ {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["gametype"],CustomName:'{"bold":true,"color":"$(color)","text":"$(text)"}'}
+$execute positioned as @e[type=armor_stand, name="SpawnCoords"] run summon armor_stand ~18 ~104.2 ~ {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["gametype"],CustomName:'{"bold":true,"color":"$(color)","text":"$(text)"}'}

@@ -30,5 +30,8 @@ data modify storage bingo:data PossibleItems append value "diamond_horse_armor"
 data modify storage bingo:data PossibleItems append value "sea_pickle"
 data modify storage bingo:data PossibleItems append value "recovery_compass"
 data modify storage bingo:data PossibleItems append value "music_disc_pigstep"
+data modify storage bingo:data PossibleItems append value "heavy_core"
+data modify storage bingo:data PossibleItems append value "mace"
+data modify storage bingo:data PossibleItems append value "ominous_trial_key"
 
 

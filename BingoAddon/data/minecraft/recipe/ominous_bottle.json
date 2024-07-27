@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "XYW",
+      "AZB"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:crossbow"
+      },
+      "Y": {
+        "item": "minecraft:nether_star"
+      },
+      "Z": {
+        "item": "minecraft:hay_block"
+      },
+      "#": {
+        "item": "minecraft:carved_pumpkin"
+      },
+      "W": {
+        "item": "minecraft:diamond_axe"
+      },
+      "A": {
+        "item": "minecraft:emerald_block"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "id": "minecraft:ominous_bottle",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Dread\", \"color\":\"#a90000\", \"italic\": false}",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:harming",
+          "custom_color": 3870993,
+          "custom_effects": [
+            {
+              "id": "minecraft:bad_omen",
+              "amplifier": 4,
+              "duration": -1,
+              "show_particles": true
+            }
+          ]
+        }
+      }
+    }
+  }

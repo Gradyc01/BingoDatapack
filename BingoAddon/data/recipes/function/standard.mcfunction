@@ -8,3 +8,5 @@ $recipe $(com) $(sel) minecraft:notchapple
 $recipe $(com) $(sel) minecraft:quickshulker
 $recipe $(com) $(sel) minecraft:netherartifact
 $recipe $(com) $(sel) minecraft:soul_artifact
+$recipe $(com) $(sel) minecraft:ominous_bottle
+$recipe $(com) $(sel) minecraft:potion_oozing
