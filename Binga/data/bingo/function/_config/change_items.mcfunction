@@ -11,4 +11,4 @@ $execute if score $(name) booleans matches 1 run tellraw @a [{"color":"gold","te
 $execute if score $(name) booleans matches 0 run tellraw @a [{"color":"gold","text":"[Bingo Items]"},{"color":"aqua","text":" $(name) "},{"color":"aqua", "text":"has now been disabled"}]
 function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
 function bingo:_config/items
-function bingoaddon:lobbyarea/viewgamesetting/_gametype {text:"Custom", color:"blue"}
+function bingoaddon:lobbyarea/viewgamesetting/gametype_custom

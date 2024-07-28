@@ -10,6 +10,6 @@ scoreboard players set linesBeforeWin booleans 2
 
 function bingo:_config/items_tutorial
 
-tellraw @a [{"color":"gold","text":"[Bingo Preset]"},{"color":"aqua","text":" Tutorial"}]
-function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
-function bingoaddon:lobbyarea/viewgamesetting/_gametype {text:"Tutorial", color:"green"}
+# tellraw @a [{"color":"gold","text":"[Bingo Preset]"},{"color":"aqua","text":" Tutorial"}]
+# function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
+function bingoaddon:lobbyarea/viewgamesetting/_gametype {text:"Tutorial", color:"green", time:"10 Min"}

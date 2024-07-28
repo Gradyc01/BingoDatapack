@@ -27,16 +27,8 @@
       "components": {
         "minecraft:custom_name": "{\"text\":\"Cube Converter\", \"color\":\"green\", \"italic\": false}",
         "minecraft:potion_contents": {
-          "potion": "minecraft:awkward",
-          "custom_color": 1232671,
-          "custom_effects": [
-            {
-              "id": "minecraft:oozing",
-              "amplifier": 0,
-              "duration": 3600,
-              "show_particles": true
-            }
-          ]
+          "potion": "minecraft:oozing",
+          "custom_color": 1232671
         }
       }
     }

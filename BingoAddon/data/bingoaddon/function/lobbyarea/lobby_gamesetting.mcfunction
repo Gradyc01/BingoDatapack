@@ -32,6 +32,7 @@ scoreboard players set linesBeforeWin _bingo 0
 
 function bingoaddon:lobbyarea/queuelistener/resetsign
 
+##Settings
 setblock ~18 ~103 ~-3 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Add","color":"gold","bold":true}','{"text":"Line","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingo:check/settings {0:\\"add\\"}"}}','{"text":""}']}} replace
 setblock ~18 ~102 ~-3 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Lines Before","color":"gold","bold":true}','{"text":"Bingo","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/tellraw @s {\\"text\\": \\"How many lines it takes before you get a bingo\\"}"}}','{"text":""}']}} replace
 setblock ~18 ~101 ~-3 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Remove","color":"gold","bold":true}','{"text":"Line","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingo:check/settings {0:\\"remove\\"}"}}','{"text":""}']}} replace
@@ -44,12 +45,14 @@ setblock ~18 ~103 ~-2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":
 setblock ~18 ~102 ~-2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Medium Items","color":"gold","bold":true}','{"text":"Enable/Disable","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingo:_config/change_items {name:mediumItems}"}}','{"text":""}']}} replace
 setblock ~18 ~101 ~-2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Hard Items","color":"gold","bold":true}','{"text":"Enable/Disable","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingo:_config/change_items {name:hardItems}"}}','{"text":""}']}} replace
 
+##Presets
 setblock ~18 ~103 ~2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Set Board","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/setboard"}}','{"text":""}']}} replace
 setblock ~18 ~102 ~2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Standard Game","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/standardgame"}}','{"text":""}']}} replace
 setblock ~18 ~102 ~4 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Quick Game","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/quickgame"}}','{"text":""}']}} replace
 setblock ~18 ~103 ~4 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Tutorial","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/tutorial"}}','{"text":""}']}} replace
 
 
+##Hypertext
 summon armor_stand ~18 ~104.5 ~-3 {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Settings"}'}
 summon armor_stand ~18 ~104.5 ~3 {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Presets"}'}
 

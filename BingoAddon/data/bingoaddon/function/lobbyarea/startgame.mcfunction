@@ -16,7 +16,7 @@ gamerule sendCommandFeedback true
 time set day
 weather clear
 
-function bingoaddon:lobbyarea/viewgamesetting/_gametype {text:"Default", color:"gold"}
+function bingoaddon:lobbyarea/viewgamesetting/standardgame
 
 item replace entity @a inventory.0 with minecraft:slime_ball[minecraft:custom_data={nobingo:1},minecraft:enchantments={knockback:10}]
 
