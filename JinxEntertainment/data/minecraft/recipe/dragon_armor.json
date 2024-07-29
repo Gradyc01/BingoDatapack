@@ -26,7 +26,7 @@
         "minecraft:enchantments": {
           "minecraft:protection": 4
         },
-        "minecraft:repair_cost": 999
+        "minecraft:repair_cost": 998
       }
     }
   }

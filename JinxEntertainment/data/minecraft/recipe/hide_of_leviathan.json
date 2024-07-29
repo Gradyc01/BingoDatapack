@@ -30,7 +30,7 @@
           "minecraft:aqua_affinity": 1,
           "minecraft:respiration": 3
         },
-        "minecraft:repair_cost": 999,
+        "minecraft:repair_cost": 998,
         "minecraft:custom_name": "{\"text\":\"Hide of Leviathan\", \"color\":\"#00FFFF\", \"italic\": false}"
       }
     }

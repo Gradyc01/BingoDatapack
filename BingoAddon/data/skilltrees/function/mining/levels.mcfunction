@@ -1,0 +1,6 @@
+execute if score @s miningLevel matches 4 run function skilltrees:global/changelevel {text: "Mining", cap:1500, reward:"skilltrees:mining/reward/5", exp:miningExp, level:miningLevel, capacity:miningCapacity, check:"skilltrees:mining/levels"}
+execute if score @s miningLevel matches 3 run function skilltrees:global/changelevel {text: "Mining", cap:1500, reward:"skilltrees:mining/reward/4", exp:miningExp, level:miningLevel, capacity:miningCapacity, check:"skilltrees:mining/levels"}
+execute if score @s miningLevel matches 2 run function skilltrees:global/changelevel {text: "Mining", cap:750, reward:"skilltrees:mining/reward/3", exp:miningExp, level:miningLevel, capacity:miningCapacity, check:"skilltrees:mining/levels"}
+execute if score @s miningLevel matches 1 run function skilltrees:global/changelevel {text: "Mining", cap:250, reward:"skilltrees:mining/reward/2", exp:miningExp, level:miningLevel, capacity:miningCapacity, check:"skilltrees:mining/levels"}
+execute if score @s miningLevel matches 0 run function skilltrees:global/changelevel {text: "Mining", cap:100, reward:"skilltrees:mining/reward/1", exp:miningExp, level:miningLevel, capacity:miningCapacity, check:"skilltrees:mining/levels"}
+

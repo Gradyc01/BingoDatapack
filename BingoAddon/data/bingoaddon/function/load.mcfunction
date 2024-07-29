@@ -74,3 +74,4 @@ function echolocator:load
 function freespace:load
 function commandbook:load
 function souls:load
+function skilltrees:load

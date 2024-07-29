@@ -30,7 +30,7 @@
         "minecraft:unbreaking": 2,
         "minecraft:feather_falling": 1
       },
-      "minecraft:repair_cost": 999,
+      "minecraft:repair_cost": 998,
       "minecraft:custom_name": "{\"text\":\"Hermes Boots\", \"color\":\"#00FFFF\", \"italic\": false}",
       "minecraft:attribute_modifiers": {
         "modifiers": [
