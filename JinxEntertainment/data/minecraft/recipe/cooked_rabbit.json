@@ -1,7 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
-  "group": "rabbit",
+  "category": "food",
   "ingredient": {
     "item": "minecraft:rabbit"
   },

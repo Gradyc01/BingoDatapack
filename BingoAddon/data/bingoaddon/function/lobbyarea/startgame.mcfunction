@@ -16,8 +16,6 @@ gamerule sendCommandFeedback true
 time set day
 weather clear
 
-function bingoaddon:lobbyarea/viewgamesetting/standardgame
-
 item replace entity @a inventory.0 with minecraft:slime_ball[minecraft:custom_data={nobingo:1},minecraft:enchantments={knockback:10}]
 
 #Lines Before Bingo Win
@@ -42,7 +40,7 @@ scoreboard players set @a echolocatorCooldown 0
 scoreboard players set @a freespace -1
 function countcraft:resetplayers
 
-
+function bingoaddon:lobbyarea/viewgamesetting/standardgame
 
 #===========================================
 team add matchSettings

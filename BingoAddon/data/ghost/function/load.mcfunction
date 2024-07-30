@@ -1,4 +1,3 @@
-scoreboard objectives add dropBedrock minecraft.dropped:minecraft.bedrock
 scoreboard objectives add ghostTimer dummy
 scoreboard objectives add ghostX dummy
 scoreboard objectives add ghostY dummy

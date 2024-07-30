@@ -1,9 +1,8 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
-  "group": "sand",
+  "category": "blocks",
   "ingredient": {
-    "item": "minecraft:sand"
+    "tag": "minecraft:smelts_to_glass"
   },
   "result": {
     "id": "minecraft:glass"

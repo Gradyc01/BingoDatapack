@@ -15,8 +15,7 @@ execute in minecraft:the_nether run gamerule doLimitedCrafting true
 execute in minecraft:the_nether run gamerule commandBlockOutput false
 weather clear
 time set day
-scoreboard players set @a[tag=admin] assassinate 1
-scoreboard players set @a[tag=admin] dropBedrock 0
+kill @e[type=minecraft:item_frame,tag=bingodisplay]
 
 tellraw @a[tag=admin] {"text": "Gamerules success!"}
 scoreboard players set OverallTimer booleans 1

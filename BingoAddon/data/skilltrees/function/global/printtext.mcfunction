@@ -1,0 +1,12 @@
+$execute if score ?lines skilltrees matches 1.. run tellraw @s {"text":"      $(1)", "color": "red"}
+$execute if score ?lines skilltrees matches 2.. run tellraw @s {"text":"      $(2)", "color": "red"}
+$execute if score ?lines skilltrees matches 3.. run tellraw @s {"text":"      $(3)", "color": "red"}
+$execute if score ?lines skilltrees matches 4.. run tellraw @s {"text":"      $(4)", "color": "red"}
+$execute if score ?lines skilltrees matches 5.. run tellraw @s {"text":"      $(5)", "color": "red"}
+$execute if score ?lines skilltrees matches 6.. run tellraw @s {"text":"      $(6)", "color": "red"}
+$execute if score ?lines skilltrees matches 7.. run tellraw @s {"text":"      $(7)", "color": "red"}
+$execute if score ?lines skilltrees matches 8.. run tellraw @s {"text":"      $(8)", "color": "red"}
+$execute if score ?lines skilltrees matches 9.. run tellraw @s {"text":"      $(9)", "color": "red"}
+$execute if score ?lines skilltrees matches 10.. run tellraw @s {"text":"      $(10)", "color": "red"}
+$execute if score ?lines skilltrees matches 11.. run tellraw @s {"text":"      $(11)", "color": "red"}
+$execute if score ?lines skilltrees matches 12.. run tellraw @s {"text":"      $(12)", "color": "red"}

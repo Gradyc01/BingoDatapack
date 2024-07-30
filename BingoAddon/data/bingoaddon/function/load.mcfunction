@@ -7,8 +7,6 @@ scoreboard objectives add ded deathCount
 
 scoreboard objectives add Kills playerKillCount
 scoreboard objectives add Health health
-scoreboard objectives add assassinate dummy
-
 #Add Overall Gamer Timer
 scoreboard objectives add booleans dummy {"text": "Match Settings", "color": "#0000FF", "bold": true}
 

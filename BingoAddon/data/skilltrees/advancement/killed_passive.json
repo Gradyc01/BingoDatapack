@@ -20,6 +20,10 @@
       }
     },
     "rewards": {
-      "function": "souls:addsouls/killed_passive"
+      "loot": [
+        "skilltrees:head_foragingexp",
+        "skilltrees:head_foragingexp"
+      ],
+      "function": "skilltrees:foraging/revoke_passive"
     }
   }

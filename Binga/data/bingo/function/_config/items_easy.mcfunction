@@ -32,4 +32,4 @@ data modify storage bingo:data PossibleItems append value "flower_pot"
 data modify storage bingo:data PossibleItems append value "ender_pearl"
 data modify storage bingo:data PossibleItems append value "firework_star"
 data modify storage bingo:data PossibleItems append value "chain"
-
+data modify storage bingo:data PossibleItems append value "campfire"

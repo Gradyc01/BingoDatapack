@@ -1,1 +1,0 @@
-function souls:addsouls/general {base:2, bonus:1, adv:"souls:killed_passive"}

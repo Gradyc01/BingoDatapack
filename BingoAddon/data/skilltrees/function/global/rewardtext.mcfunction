@@ -1,0 +1,15 @@
+$execute store result score ?lines skilltrees run data get storage skilltrees:textlines $(path)[$(level)]
+$execute if score ?lines skilltrees matches 1.. run data modify storage skilltrees:textlines 1 set from storage $(path) $(level)[0]
+$execute if score ?lines skilltrees matches 2.. run data modify storage skilltrees:textlines 2 set from storage $(path) $(level)[1]
+$execute if score ?lines skilltrees matches 3.. run data modify storage skilltrees:textlines 3 set from storage $(path) $(level)[2]
+$execute if score ?lines skilltrees matches 4.. run data modify storage skilltrees:textlines 4 set from storage $(path) $(level)[3]
+$execute if score ?lines skilltrees matches 5.. run data modify storage skilltrees:textlines 5 set from storage $(path) $(level)[4]
+$execute if score ?lines skilltrees matches 6.. run data modify storage skilltrees:textlines 6 set from storage $(path) $(level)[5]
+$execute if score ?lines skilltrees matches 7.. run data modify storage skilltrees:textlines 7 set from storage $(path) $(level)[6]
+$execute if score ?lines skilltrees matches 8.. run data modify storage skilltrees:textlines 8 set from storage $(path) $(level)[7]
+$execute if score ?lines skilltrees matches 9.. run data modify storage skilltrees:textlines 9 set from storage $(path) $(level)[8]
+$execute if score ?lines skilltrees matches 10.. run data modify storage skilltrees:textlines 10 set from storage $(path) $(level)[9]
+$execute if score ?lines skilltrees matches 11.. run data modify storage skilltrees:textlines 11 set from storage $(path) $(level)[10]
+$execute if score ?lines skilltrees matches 12.. run data modify storage skilltrees:textlines 12 set from storage $(path) $(level)[11]
+
+execute as @s run function skilltrees:global/printtext with storage skilltrees:textlines
