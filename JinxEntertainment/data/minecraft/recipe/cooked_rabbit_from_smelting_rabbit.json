@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "rabbit",
+  "ingredient": {
+    "item": "minecraft:rabbit"
+  },
+  "result": {
+    "id": "minecraft:cooked_rabbit"
+  },
+  "experience": 0.35,
+  "cookingtime": 25
+}
