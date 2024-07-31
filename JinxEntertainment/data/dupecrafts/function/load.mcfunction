@@ -55,7 +55,7 @@ data modify storage je:craftcount pack_arrow append value 1
 data modify storage je:craftcount pack_arrow append value 1
 data modify storage je:craftcount pack_arrow append value 1
 #======================================================================
-data modify storage je:count dupe_apple set value 2
+data modify storage je:count dupe_apple set value 3
 
 data remove storage je:craftmaterials dupe_apple 
 data modify storage je:craftmaterials dupe_apple append value "apple"
@@ -91,7 +91,7 @@ data modify storage je:craftcount dupe_cane append value 1
 data modify storage je:craftcount dupe_cane append value 1
 data modify storage je:craftcount dupe_cane append value 1
 #======================================================================
-data modify storage je:count dupe_leather set value 6
+data modify storage je:count dupe_leather set value 8
 
 data remove storage je:craftmaterials dupe_leather 
 data modify storage je:craftmaterials dupe_leather append value "leather"

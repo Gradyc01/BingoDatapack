@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:acacia_planks"
+        }
+      }
+    },
+    "rewards": {
+      "function": "skilltrees:foraging/crafted/logs/acacia"
+    }
+  }
