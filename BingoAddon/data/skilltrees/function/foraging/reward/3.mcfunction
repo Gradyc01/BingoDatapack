@@ -1,4 +1,4 @@
-# scoreboard players set @s doubleOre 3
+scoreboard players set @s celerity 3
 give @s melon_slice 8
 give @s pumpkin 1
 function recipes:unlock {recipe:"nectar", text:"Nectar", color:"gold"}

@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "combattimer:combattimer"
+    "function": "combattimer:triggercelerity"
   }
 }

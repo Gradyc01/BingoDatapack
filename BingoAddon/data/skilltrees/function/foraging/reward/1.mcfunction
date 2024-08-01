@@ -1,4 +1,4 @@
-# scoreboard players set @s doubleOre 1
+scoreboard players set @s celerity 1
 give @s apple 1
 give @s wheat_seeds 3
 function recipes:unlock {recipe:"dupecrafts:dupe_apple", text:"Eve's Temptation", color:"gold"}
