@@ -20,8 +20,11 @@ kill @e[type=minecraft:item_frame,tag=bingodisplay]
 tellraw @a[tag=admin] {"text": "Gamerules success!"}
 scoreboard players set OverallTimer booleans 1
 scoreboard players set overall_timer timer 0
-function bingoaddon:alternatingscoreboards/alternate/start
-function bingoaddon:overall_timer
+# function bingoaddon:alternatingscoreboards/alternate/start
+
+function bingoaddon:scoreboards/main/make
+
+
 
 
 execute if score enableEnlightened booleans matches 0 run function enlightened:disable_enlightened

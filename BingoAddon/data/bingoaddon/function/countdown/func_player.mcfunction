@@ -24,3 +24,4 @@ effect give @a haste 60 2 true
 
 tellraw @a[tag=admin] {"text": "effects and items success!"}
 scoreboard players set overall_timer timer 0
+function bingoaddon:overall_timer

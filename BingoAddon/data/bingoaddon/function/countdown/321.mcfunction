@@ -22,9 +22,11 @@ execute if score countdownTimer timer matches 500 run tellraw @a {"text": "\n===
 
 execute if score countdownTimer timer matches 500 run function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:1, volume:100}
 
-execute if score countdownTimer timer matches 500 run function bingoaddon:countdown/func_resetgame
+execute if score countdownTimer timer matches 500 run function bingoaddon:countdown/func_scoreboards
 
-execute if score countdownTimer timer matches 400 run function bingoaddon:countdown/func_scoreboards
+execute if score countdownTimer timer matches 400 run function bingoaddon:countdown/func_resetgame
+
+
 
 execute if score countdownTimer timer matches 350 run tellraw @a {"text": "Good Luck!", "color": "gold"} 
 execute if score countdownTimer timer matches 350 run function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}

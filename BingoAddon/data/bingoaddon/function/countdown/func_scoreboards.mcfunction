@@ -19,6 +19,7 @@ scoreboard players set TeamCScore ItemsObtained 0
 scoreboard players set TeamDScore ItemsObtained 0
 scoreboard players set @a ItemsObtained 0
 
+
 function countcraft:resetplayers
 function souls:reset
 function skilltrees:resetplayers

@@ -1,0 +1,2 @@
+execute if score overall_timer timer matches 0..60 run function bingoaddon:scoreboards/main/update/time/minute
+execute if score overall_timer timer matches 1000..1060 run function bingoaddon:scoreboards/main/update/time/second

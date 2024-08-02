@@ -22,7 +22,9 @@ setworldspawn
 
 
 summon armor_stand ~ ~2.5 ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,CustomName:'{"text":"SpawnCoords"}'}
+
 # summon armor_stand ~ ~2.5 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"text":"SpawnCoords"}'}
+execute positioned as @e[type=armor_stand, name="SpawnCoords"] run worldborder center ~ ~
 execute positioned as @e[type=armor_stand, name="SpawnCoords"] run forceload add ~ ~ ~ ~ 
 function bingoaddon:lobbyarea/spawnquartz
 execute positioned as @e[type=armor_stand, name="SpawnCoords"] run function bingoaddon:lobbyarea/buildlobby

@@ -1,16 +1,17 @@
 tellraw @a {"text": "Bingo AddOn Datapack initiated","color": "#FF0000"}
 scoreboard objectives add switchblock dummy
 scoreboard objectives add timer dummy
-# scoreboard objectives add dropHead minecraft.dropped:minecraft.player_head
 scoreboard objectives add DeathCount deathCount
 scoreboard objectives add ded deathCount
 
 scoreboard objectives add Kills playerKillCount
 scoreboard objectives add Health health
-#Add Overall Gamer Timer
 scoreboard objectives add booleans dummy {"text": "Match Settings", "color": "#0000FF", "bold": true}
 
-# setblock ~ ~2 ~ beacon
+#Set Values
+scoreboard players set ?minute timer 60
+
+
 #Booleans
 scoreboard players set OverallTimer booleans 0
 scoreboard players set startCountdown booleans 0
@@ -73,3 +74,6 @@ function freespace:load
 function commandbook:load
 function souls:load
 function skilltrees:load
+
+#purely for the purpose of syntax display to not freak out
+scoreboard objectives add maingameboard dummy

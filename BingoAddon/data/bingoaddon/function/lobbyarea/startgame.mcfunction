@@ -10,6 +10,7 @@ effect give @a saturation infinite 0 true
 effect give @a resistance infinite 4 true
 execute as @a run attribute @s minecraft:generic.max_health base set 20
 execute in overworld positioned as @e[type=armor_stand, name="SpawnCoords"] run tp @a ~ ~102 ~ facing ~1 ~102 ~
+execute positioned as @e[type=armor_stand, name="SpawnCoords"] run worldborder set 61 0
 
 gamerule doDaylightCycle false
 gamerule sendCommandFeedback true
@@ -30,11 +31,13 @@ scoreboard players set mediumItems booleans 1
 scoreboard players set hardItems booleans 1
 scoreboard players set souls booleans 1
 scoreboard players set endGracePeriod booleans 0
-scoreboard objectives setdisplay sidebar booleans
+
+function bingoaddon:scoreboards/lobby/make
 
 function bingoaddon:lobbyarea/resetplayers
 
 function bingoaddon:lobbyarea/viewgamesetting/standardgame
+function bingoaddon:stop_timer
 
 #===========================================
 team add matchSettings

@@ -1,0 +1,1 @@
+schedule clear bingoaddon:overall_timer

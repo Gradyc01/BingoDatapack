@@ -52,3 +52,9 @@ setblock ~3 ~101 ~-18 oak_wall_sign[facing=south]{front_text:{messages:['{"text"
 summon armor_stand ~ ~104.5 ~-18 {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Select Your Teams Here"}'}
 summon armor_stand ~-2.5 ~104 ~-18 {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Teams"}'}
 summon armor_stand ~3 ~104 ~-18 {Marker:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Random"}'}
+
+
+summon armor_stand ~ ~106 ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby","physicalTeam"],CustomName:'{"text":"TeamA"}'}
+summon armor_stand ~ ~106 ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby","physicalTeam"],CustomName:'{"text":"TeamB"}'}
+summon armor_stand ~ ~106 ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby","physicalTeam"],CustomName:'{"text":"TeamC"}'}
+summon armor_stand ~ ~106 ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby","physicalTeam"],CustomName:'{"text":"TeamD"}'}

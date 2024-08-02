@@ -20,6 +20,7 @@ execute as @s[team=TeamB] run scoreboard players add TeamBScore ItemsObtained 1
 execute as @s[team=TeamC] run scoreboard players add TeamCScore ItemsObtained 1
 execute as @s[team=TeamD] run scoreboard players add TeamDScore ItemsObtained 1
 execute as @s run scoreboard players add @s ItemsObtained 1
+schedule function bingoaddon:scoreboards/main/update/itemsobtained 1s
 
 execute as @s[team=TeamA] run function bingo:check/item_reward {team:TeamA}
 execute as @s[team=TeamB] run function bingo:check/item_reward {team:TeamB}

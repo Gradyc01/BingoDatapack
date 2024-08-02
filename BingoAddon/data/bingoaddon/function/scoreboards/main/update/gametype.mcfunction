@@ -1,0 +1,1 @@
+$function scoreboards:editline {obj:maingameboard, line:-3, text:"{\"text\": \"  $(text)\", \"color\": \"$(color)\", \"bold\": true}"}
