@@ -67,11 +67,12 @@ execute if score overall_timer timer matches 1089 run function playingsounds:pla
 execute if score overall_timer timer matches 1060..1090 run execute positioned as @e[type=armor_stand, name="SpawnCoords"] run kill @e[type=minecraft:ender_pearl, distance=0..50]
 
 execute if score overall_timer timer matches 1090 run function bingoaddon:deathmatch/spawndeathmatch
-tellraw @a[tag=admin] {"text": "Overall timer ran"}
+
 
 execute if score overall_timer timer matches 0..1060 run function bingoaddon:scoreboards/main/update/time
 
 execute if score OverallTimer booleans matches 1 run scoreboard players add overall_timer timer 1 
 execute if score OverallTimer booleans matches 1 if score overall_timer timer matches 0..59 run schedule function bingoaddon:overall_timer 60s
 execute if score OverallTimer booleans matches 1 if score overall_timer timer matches 1000.. run schedule function bingoaddon:overall_timer 1s
+function admin:log {text:"Overall Timer Ran Success"}
 

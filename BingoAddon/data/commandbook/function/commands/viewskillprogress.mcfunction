@@ -1,0 +1,8 @@
+tellraw @s {"text": "================================\n", "color": "gold"}
+tellraw @s {"text": "         SKILL PROGRESS\n        ", "color": "aqua", "bold": true}
+tellraw @s [{"text": "         Souls ", "color": "gold", "bold": true},{"score":{"name":"@s","objective":"soulsLevel"},"color": "gold", "bold": true},{"text": "     (", "color": "aqua", "bold": false},{"score":{"name":"@s","objective":"souls"},"color": "aqua", "bold": false},{"text": "/", "color": "aqua", "bold": false},{"score":{"name":"@s","objective":"soulsCapacity"},"color": "aqua", "bold": false},{"text": ")", "color": "aqua", "bold": false}]
+
+tellraw @s [{"text": "        Mining ", "color": "gold", "bold": true},{"score":{"name":"@s","objective":"miningLevel"},"color": "gold", "bold": true},{"text": "     (", "color": "aqua", "bold": false},{"score":{"name":"@s","objective":"miningExp"},"color": "aqua", "bold": false},{"text": "/", "color": "aqua", "bold": false},{"score":{"name":"@s","objective":"miningCapacity"},"color": "aqua", "bold": false},{"text": ")", "color": "aqua", "bold": false}]
+
+tellraw @s [{"text": "      Foraging ", "color": "gold", "bold": true},{"score":{"name":"@s","objective":"foragingLevel"},"color": "gold", "bold": true},{"text": "     (", "color": "aqua", "bold": false},{"score":{"name":"@s","objective":"foragingExp"},"color": "aqua", "bold": false},{"text": "/", "color": "aqua", "bold": false},{"score":{"name":"@s","objective":"foragingCapacity"},"color": "aqua", "bold": false},{"text": ")", "color": "aqua", "bold": false}]
+tellraw @s {"text": "\n================================", "color": "gold"}

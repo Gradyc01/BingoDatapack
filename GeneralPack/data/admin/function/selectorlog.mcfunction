@@ -1,0 +1,1 @@
+$tellraw @a[tag=admin] [{"text": "[Admin Logs]   ","color": "dark_gray"},{"selector": "@s", "color": "white"}, {"text": " $(text)", "color": "white"}]

@@ -23,4 +23,7 @@ scoreboard players set @a ItemsObtained 0
 function countcraft:resetplayers
 function souls:reset
 function skilltrees:resetplayers
-tellraw @a[tag=admin] {"text": "Scoreboards reset!"}
+
+function bingoaddon:scoreboards/main/make
+
+function admin:log {text:"Scoreboards Reset Success!"}

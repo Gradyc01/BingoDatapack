@@ -1,1 +1,0 @@
-scoreboard players set alternatingScoreboards booleans 0

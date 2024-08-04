@@ -4,4 +4,4 @@ $summon armor_stand $(x) 255 $(z) {CustomNameVisible:1b,Silent:1b,Invulnerable:1
 scoreboard players set timer carepackage 300
 tellraw @a [{"color":"aqua","text":"A Care Package will drop at: ("},{"score":{"name":"randomX","objective":"carepackage"}},{"text":", "},{"score":{"name":"randomZ","objective":"carepackage"}},{"text":") in 5 minutes"}]
 function carepackage:package_loop with storage carepackage:coords
-function playingsounds:playping
+function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:0, volume:100}

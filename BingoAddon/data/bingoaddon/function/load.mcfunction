@@ -61,7 +61,7 @@ team modify TeamNone color gray
 team modify TeamNone seeFriendlyInvisibles false
 
 function bingoaddon:deathpenalty/load
-function bingoaddon:alternatingscoreboards/load
+function bingoaddon:scoreboards/load
 function ghost:load
 function bingoaddon:graceperiod/load
 function carepackage:load
@@ -74,6 +74,7 @@ function freespace:load
 function commandbook:load
 function souls:load
 function skilltrees:load
+
 
 #purely for the purpose of syntax display to not freak out
 scoreboard objectives add maingameboard dummy

@@ -10,4 +10,4 @@ execute if score ?timer kits matches 2 as @a[scores={kits=0}] run function bingo
 execute as @a[scores={kits=1..}] run function bingoaddon:kitselection/kits/give_kits
 
 
-execute if score ?timer kits matches 1.. run schedule function bingoaddon:kitselection/loop 20t
+execute if score ?timer kits matches 1.. run schedule function bingoaddon:kitselection/loop 2t

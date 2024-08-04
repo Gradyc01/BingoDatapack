@@ -1,2 +1,0 @@
-execute if score alternatingScoreboards booleans matches 1 run scoreboard objectives setdisplay sidebar ItemsObtained 
-execute if score alternatingScoreboards booleans matches 1 run schedule function bingoaddon:alternatingscoreboards/boards/2_deaths 30s

@@ -4,3 +4,5 @@ tellraw @a {"text": " Defeat your opponents by collecting items on your bingo bo
 tellraw @a {"text": " Make sure you are properly equipped in order to defend yourself among mobs and peers.", "color": "gold"}
 tellraw @a {"text": "\n================================", "color": "gold"} 
 function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:0, volume:100}
+
+schedule function bingoaddon:initiategame/initiate_start/texts/rules 10s

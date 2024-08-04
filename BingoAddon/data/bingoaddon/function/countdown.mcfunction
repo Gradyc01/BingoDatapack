@@ -3,4 +3,4 @@
 # scoreboard players set countdown booleans 1
 # scoreboard players set timer timer 0
 # scoreboard players set startCountdown booleans 1
-function bingoaddon:countdown/set
+function bingoaddon:initiategame/start

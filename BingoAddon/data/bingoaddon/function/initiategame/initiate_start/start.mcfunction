@@ -1,0 +1,1 @@
+schedule function bingoaddon:initiategame/initiate_start/texts/opening 1s
