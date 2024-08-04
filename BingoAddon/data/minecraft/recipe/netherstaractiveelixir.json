@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "Z#Z",
+    " # ",
     "YTY",
     "WXW"
   ],
@@ -14,9 +14,6 @@
     },
     "Y": {
       "item": "minecraft:blaze_powder"
-    },
-    "Z": {
-      "item": "minecraft:sugar"
     },
     "W": {
       "item": "minecraft:diamond"

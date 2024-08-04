@@ -4,6 +4,8 @@ advancement revoke @s only bingoaddon:vil_startgame
 
 tag @a add not_ready
 
+gamerule sendCommandFeedback false
+
 schedule function bingoaddon:lobbyarea/queuelistener/failed 30s
 scoreboard objectives add ready trigger
 scoreboard players set ?ready ready 0

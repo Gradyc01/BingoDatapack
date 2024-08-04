@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      "Y#Y",
+      "Y Y",
       "ZXW",
       "YYY"
     ],
@@ -17,9 +17,6 @@
       },
       "W": {
         "item": "minecraft:crossbow"
-      },
-      "#": {
-        "item": "minecraft:blaze_rod"
       }
     },
     "result": {

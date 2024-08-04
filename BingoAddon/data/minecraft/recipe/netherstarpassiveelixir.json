@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ZWZ",
-    "MYM",
+    " W ",
+    "ZYZ",
     "#X#"
   ],
   "key": {
@@ -20,9 +20,6 @@
     },
     "W": {
       "item": "minecraft:water_bucket"
-    },
-    "M": {
-      "item": "minecraft:magma_cream"
     }
   },
   "result": {

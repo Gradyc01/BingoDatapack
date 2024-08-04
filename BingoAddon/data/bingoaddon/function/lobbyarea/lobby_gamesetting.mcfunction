@@ -47,9 +47,14 @@ setblock ~18 ~101 ~-2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":
 
 ##Presets
 setblock ~18 ~103 ~2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Set Board","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/setboard"}}','{"text":""}']}} replace
-setblock ~18 ~102 ~2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Standard Game","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/standardgame"}}','{"text":""}']}} replace
-setblock ~18 ~102 ~4 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Quick Game","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/quickgame"}}','{"text":""}']}} replace
+setblock ~18 ~102 ~2 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Duel","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/1v1"}}','{"text":""}']}} replace
+
+
+setblock ~18 ~103 ~3 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Brawl","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/brawl"}}','{"text":""}']}} replace
+setblock ~18 ~102 ~3 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Standard","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/standardgame"}}','{"text":""}']}} replace
+
 setblock ~18 ~103 ~4 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Tutorial","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/tutorial"}}','{"text":""}']}} replace
+setblock ~18 ~102 ~4 oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Swift","color":"gold","bold":true}','{"text":"[Use Preset]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewgamesetting/quickgame"}}','{"text":""}']}} replace
 
 
 ##Hypertext
