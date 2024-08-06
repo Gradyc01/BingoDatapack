@@ -29,6 +29,12 @@
                   "repair_cost": 999
                 }
               }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "souls:enabled"
+              }
             ]
           }
         ]

@@ -1,0 +1,1 @@
+$execute if predicate souls:enabled run function skilltrees:global/addexp_adv {adv:"$(adv)", num:$(num), exp:$(exp), gained:$(gained), capacity:$(capacity), type:$(type), check:"$(check)", text:"$(text)"}

@@ -2,7 +2,7 @@ tellraw @a {"text": "================================\n", "color": "gold"}
 tellraw @a {"text": "     MATCH SETTINGS:            \n", "color": "aqua", "bold": true}
 tellraw @a [{"text": "  Lines:           ", "color": "gold", "bold": true},{"score":{"name":"linesBeforeWin","objective":"booleans"}, "bold": false, "color": "green"}]
 function bingoaddon:initiategame/initiate_start/texts/ruletellraw {text:"Death Penalty", obj:deathPenalty}
-function bingoaddon:initiategame/initiate_start/texts/ruletellraw {text:"Souls          ", obj:souls}
+function bingoaddon:initiategame/initiate_start/texts/ruletellraw {text:"Skill Trees    ", obj:souls}
 function bingoaddon:initiategame/initiate_start/texts/ruletellraw {text:"Enlightened   ", obj:enableEnlightened}
 function bingoaddon:initiategame/initiate_start/texts/ruletellraw {text:"Easy Items    ", obj:easyItems}
 function bingoaddon:initiategame/initiate_start/texts/ruletellraw {text:"Medium Items  ", obj:mediumItems}
