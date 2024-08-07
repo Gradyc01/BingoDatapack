@@ -33,5 +33,6 @@ data modify storage bingo:data PossibleItems append value "music_disc_pigstep"
 data modify storage bingo:data PossibleItems append value "heavy_core"
 data modify storage bingo:data PossibleItems append value "mace"
 data modify storage bingo:data PossibleItems append value "ominous_trial_key"
-
+data modify storage bingo:data PossibleItems append value "mangrove_hanging_sign"
+data modify storage bingo:data PossibleItems append value "waxed_copper_grate"
 

@@ -1,8 +1,9 @@
-execute as @s[team=TeamNone] run tellraw @a [{"selector":"@s","color":"#FFFF00","bold":true},{"text":" has hit a bingo!"}]
-execute as @s[team=TeamA] run tellraw @a [{"text":"TeamA has hit a bingo!","color":"#FFFF00","bold":true}]
-execute as @s[team=TeamB] run tellraw @a [{"text":"TeamB has hit a bingo!","color":"#FFFF00","bold":true}]
-execute as @s[team=TeamC] run tellraw @a [{"text":"TeamC has hit a bingo!","color":"#FFFF00","bold":true}]
-execute as @s[team=TeamD] run tellraw @a [{"text":"TeamD has hit a bingo!","color":"#FFFF00","bold":true}]
+execute as @s[team=TeamNone] run function bingo:winner/teammsgs {team:" ", text:" "}
+execute as @s[team=TeamA] run function bingo:winner/teammsgs {team:TeamA, text:"TeamA"}
+execute as @s[team=TeamB] run function bingo:winner/teammsgs {team:TeamB, text:"TeamB"}
+execute as @s[team=TeamC] run function bingo:winner/teammsgs {team:TeamC, text:"TeamC"}
+execute as @s[team=TeamD] run function bingo:winner/teammsgs {team:TeamD, text:"TeamD"}
+function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
 # scoreboard players set @s _bingo 33554431
 scoreboard players set @a[scores={deathTimer=1..}] deathTimer 0
 gamemode spectator @a

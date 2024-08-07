@@ -10,6 +10,7 @@ function bingoaddon:lobbyarea/lobby_gamesetting
 function bingoaddon:lobbyarea/lobby_recipes
 function bingoaddon:lobbyarea/lobby_boarddisplay
 function bingoaddon:lobbyarea/lobby_parkour
+function bingoaddon:lobbyarea/lobby_skilltrees
 
 
 

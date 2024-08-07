@@ -1,0 +1,1 @@
+$summon villager ~$(x) ~$(y) ~$(z) {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Age:-20000000,Tags:[$(tags)],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b,show_icon:0b}]}
