@@ -1,0 +1,17 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "lore": [
+          {
+            "text": "JE"
+          }
+        ],
+        "mode": "replace_all"
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:max_damage": 16
+      }
+    }
+  ]

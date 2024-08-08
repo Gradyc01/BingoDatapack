@@ -7,3 +7,4 @@ $execute as @s if items entity @s hotbar.5 $(item)[!lore=['{"text":"JE"}']] run 
 $execute as @s if items entity @s hotbar.6 $(item)[!lore=['{"text":"JE"}']] run item modify entity @s hotbar.6 $(mod)
 $execute as @s if items entity @s hotbar.7 $(item)[!lore=['{"text":"JE"}']] run item modify entity @s hotbar.7 $(mod)
 $execute as @s if items entity @s hotbar.8 $(item)[!lore=['{"text":"JE"}']] run item modify entity @s hotbar.8 $(mod)
+$execute as @s if items entity @s weapon.offhand $(item)[!lore=['{"text":"JE"}']] run item modify entity @s weapon.offhand $(mod)

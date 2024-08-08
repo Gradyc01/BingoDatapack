@@ -1,5 +1,6 @@
-function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:1, volume:20}
-tellraw @a {"text": "Function Start Game Ran", "color": "red"}
+# function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:1, volume:20}
+# tellraw @a {"text": "Function Start Game Ran", "color": "red"}
+function admin:log {text:"Function Start Game Ran"}
 tag @a add startgame
 schedule function bingoaddon:lobbyarea/startgame/loop 4s
 schedule function bingoaddon:lobbyarea/startgame/gamerules 1s

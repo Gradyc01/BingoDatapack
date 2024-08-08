@@ -28,3 +28,6 @@ execute as @s if items entity @s hotbar.* minecraft:diamond_axe[!lore=['{"text":
 execute as @s if items entity @s hotbar.* minecraft:iron_axe[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:iron_axe, mod:"jeweapons:iron_axe_mod"}
 execute as @s if items entity @s hotbar.* minecraft:stone_axe[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:stone_axe, mod:"jeweapons:stone_axe_mod"}
 execute as @s if items entity @s hotbar.* minecraft:wooden_axe[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:wooden_axe, mod:"jeweapons:wooden_axe_mod"}
+
+execute as @s if items entity @s hotbar.* minecraft:shield[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:shield, mod:"jeweapons:shield_mod"}
+execute as @s if items entity @s weapon.offhand minecraft:shield[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:shield, mod:"jeweapons:shield_mod"}
