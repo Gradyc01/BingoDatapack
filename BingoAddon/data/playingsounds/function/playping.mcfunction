@@ -1,1 +1,1 @@
-execute positioned as @a run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 200 2
+function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}

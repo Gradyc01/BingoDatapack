@@ -6,7 +6,7 @@ scoreboard players operation @s _bingo += bit _bingo
 # tellraw @a {"selector":"@s", "storage":"bingo:data","nbt":"args"}
 
 tellraw @a [{"selector":"@s","color":"#00FFFF","bold":false},{"text":" has obtained an item"}]
-function playingsounds:playping
+function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
 
 # execute as @a if score @s _bingo > TeamAScore _bingo run 
 # function bingo:check/dep {value:"@s"}

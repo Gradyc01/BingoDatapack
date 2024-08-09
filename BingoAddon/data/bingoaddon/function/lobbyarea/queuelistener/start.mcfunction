@@ -2,6 +2,7 @@
 kill @e[tag=startgame]
 advancement revoke @s only bingoaddon:vil_startgame
 
+# execute store result storage bingoaddon:booleans playerCount int 1.0 run tag @a add not_ready
 tag @a add not_ready
 
 gamerule sendCommandFeedback false

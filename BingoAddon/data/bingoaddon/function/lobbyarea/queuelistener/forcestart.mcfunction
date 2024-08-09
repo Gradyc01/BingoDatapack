@@ -1,0 +1,1 @@
+execute as @a[tag=not_ready] run trigger ready
