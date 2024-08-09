@@ -1,1 +1,2 @@
 $function scoreboards:editline {obj:lobbyboard, line:12, text:"{\"text\": \"    $(text)\", \"color\": \"$(color)\", \"bold\": false}"}
+$function scoreboards:editline {obj:queueboard, line:12, text:"{\"text\": \"    $(text)\", \"color\": \"$(color)\", \"bold\": false}"}

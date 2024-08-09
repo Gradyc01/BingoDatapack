@@ -2,8 +2,9 @@
 kill @e[tag=startgame]
 advancement revoke @s only bingoaddon:vil_startgame
 
-# execute store result storage bingoaddon:booleans playerCount int 1.0 run tag @a add not_ready
-tag @a add not_ready
+execute store result storage scoreboard:queueboard totalPlayers int 1.0 run tag @a add not_ready
+# execute store result score ?totalPlayers _bingo run tag @a add not_ready
+# tag @a add not_ready
 
 gamerule sendCommandFeedback false
 
@@ -26,4 +27,5 @@ tellraw @a {"text": "\n\n\n================================", "color": "gold"}
 
 execute as @s[name=!Depickcator] run trigger ready
 function bingoaddon:lobbyarea/queuelistener/loop
+schedule function bingoaddon:scoreboards/queue/make 1s
 function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:1, volume:100}

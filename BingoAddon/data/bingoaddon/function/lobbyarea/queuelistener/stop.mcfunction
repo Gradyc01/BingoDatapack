@@ -4,4 +4,5 @@ execute as @a[limit=1] run schedule function bingoaddon:initiategame/start 5s
 schedule clear bingoaddon:lobbyarea/queuelistener/failed
 tellraw @a [{"color":"green","text": "[SUCCESS]", "bold": true},{"color":"aqua","text": " Spreading players please be patient","bold": false}]
 function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
+function scoreboards:display {obj:lobbyboard}
 # tellraw @a {"text": "stop"}
