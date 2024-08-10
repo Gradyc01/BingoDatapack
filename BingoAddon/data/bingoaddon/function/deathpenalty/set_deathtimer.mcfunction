@@ -23,4 +23,4 @@ effect give @a regeneration 12 1 true
 execute if score enableEnlightened booleans matches 1 as @s run function enlightened:loss_enlightened
 
 ##Trigger Loss of Souls
-execute if score deathPenalty booleans matches 1 if score souls booleans matches 1 as @s run function souls:lostsouls
+# execute if score deathPenalty booleans matches 1 if score souls booleans matches 1 as @s run function souls:lostsouls

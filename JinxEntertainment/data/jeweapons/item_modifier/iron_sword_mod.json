@@ -14,7 +14,7 @@
         {
           "id": "iron_sword",
           "attribute": "minecraft:generic.attack_damage",
-          "amount": 8,
+          "amount": 10,
           "operation": "add_value",
           "slot": "mainhand"
         },

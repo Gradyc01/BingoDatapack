@@ -23,7 +23,7 @@
       }
     },
     "result": {
-      "id": "minecraft:potion",
+      "id": "minecraft:splash_potion",
       "components": {
         "minecraft:custom_name": "{\"text\":\"Cube Converter\", \"color\":\"green\", \"italic\": false}",
         "minecraft:potion_contents": {

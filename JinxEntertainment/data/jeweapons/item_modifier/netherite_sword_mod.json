@@ -14,7 +14,7 @@
         {
           "id": "netherite_sword",
           "attribute": "minecraft:generic.attack_damage",
-          "amount": 14,
+          "amount": 18,
           "operation": "add_value",
           "slot": "mainhand"
         },

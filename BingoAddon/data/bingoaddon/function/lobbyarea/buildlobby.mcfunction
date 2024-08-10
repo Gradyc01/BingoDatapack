@@ -11,6 +11,9 @@ function bingoaddon:lobbyarea/lobby_recipes
 function bingoaddon:lobbyarea/lobby_boarddisplay
 function bingoaddon:lobbyarea/lobby_parkour
 function bingoaddon:lobbyarea/lobby_skilltrees
+function bingoaddon:lobbyarea/lobby_how2play
+function bingoaddon:lobbyarea/lobby_rules
+function bingoaddon:lobbyarea/lobby_special
 
 
 
