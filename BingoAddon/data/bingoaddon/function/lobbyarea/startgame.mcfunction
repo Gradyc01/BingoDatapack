@@ -8,6 +8,7 @@ schedule function bingoaddon:lobbyarea/startgame/scoreboard 3s
 schedule function bingoaddon:lobbyarea/startgame/resetplayer 5s
 schedule function bingoaddon:lobbyarea/startgame/setstandard 9s
 schedule function bingoaddon:lobbyarea/startgame/resetteams 11s
+schedule function bingoaddon:lobbyarea/lobbyloop/start 20s
 # schedule function bingoaddon:lobbyarea/startgame/tp 10s
 
 

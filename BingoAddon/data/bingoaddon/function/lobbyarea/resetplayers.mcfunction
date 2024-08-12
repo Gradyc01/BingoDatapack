@@ -4,4 +4,5 @@ scoreboard players set @a kits 0
 scoreboard players set @a combatTimer 0
 scoreboard players set @a echolocatorCooldown 0
 scoreboard players set @a freespace -1
+function teleport_sequence:reset
 function countcraft:resetplayers

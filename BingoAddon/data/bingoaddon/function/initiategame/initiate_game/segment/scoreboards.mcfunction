@@ -23,6 +23,7 @@ scoreboard players set @a ItemsObtained 0
 function countcraft:resetplayers
 function souls:reset
 function skilltrees:resetplayers
+function teleport_sequence:reset
 
 function bingoaddon:scoreboards/main/make
 

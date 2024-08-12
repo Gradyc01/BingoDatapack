@@ -19,18 +19,20 @@ execute if score overall_timer timer matches 45 run function playingsounds:playp
 
 execute if score overall_timer timer matches 46 run function carepackage:package_findcoords
 
-execute if score overall_timer timer matches 55 run tellraw @a {"text": "5 Minutes Before DeathMatch", "color": "gold", "bold": true}
-execute if score overall_timer timer matches 55 run function playingsounds:playping
+# execute if score overall_timer timer matches 55 run tellraw @a {"text": "5 Minutes Before DeathMatch", "color": "gold", "bold": true}
+# execute if score overall_timer timer matches 55 run function playingsounds:playping
 execute if score overall_timer timer matches 59 run tellraw @a {"text": "1 Minutes Before DeathMatch", "color": "gold", "bold": true}
+execute if score overall_timer timer matches 59 run scoreboard players set @a teleportCooldown 120
+execute if score overall_timer timer matches 59 run schedule function teleport_sequence:cooldown_loop 1s
 execute if score overall_timer timer matches 59 run function playingsounds:playping
 execute if score overall_timer timer matches 59 run scoreboard players set overall_timer timer 1000
 
-execute if score overall_timer timer matches 1030 run tellraw @a {"text": "30 Seconds Before DeathMatch", "color": "gold", "bold": true}
-execute if score overall_timer timer matches 1030 run function playingsounds:playping
-execute if score overall_timer timer matches 1045 run tellraw @a {"text": "15 Seconds Before DeathMatch", "color": "gold", "bold": true}
-execute if score overall_timer timer matches 1045 run function playingsounds:playping
-execute if score overall_timer timer matches 1050 run tellraw @a {"text": "10 Seconds Before DeathMatch", "color": "gold", "bold": true}
-execute if score overall_timer timer matches 1050 run function playingsounds:playping
+# execute if score overall_timer timer matches 1030 run tellraw @a {"text": "30 Seconds Before DeathMatch", "color": "gold", "bold": true}
+# execute if score overall_timer timer matches 1030 run function playingsounds:playping
+# execute if score overall_timer timer matches 1045 run tellraw @a {"text": "15 Seconds Before DeathMatch", "color": "gold", "bold": true}
+# execute if score overall_timer timer matches 1045 run function playingsounds:playping
+# execute if score overall_timer timer matches 1050 run tellraw @a {"text": "10 Seconds Before DeathMatch", "color": "gold", "bold": true}
+# execute if score overall_timer timer matches 1050 run function playingsounds:playping
 execute if score overall_timer timer matches 1055 run tellraw @a {"text": "5 Seconds Before DeathMatch", "color": "gold", "bold": true}
 execute if score overall_timer timer matches 1055 run function playingsounds:playping
 execute if score overall_timer timer matches 1056 run tellraw @a {"text": "4 Seconds Before DeathMatch", "color": "gold", "bold": true}

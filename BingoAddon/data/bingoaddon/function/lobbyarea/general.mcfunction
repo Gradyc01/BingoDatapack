@@ -16,7 +16,7 @@ execute in minecraft:the_nether run gamerule doLimitedCrafting true
 execute in minecraft:the_nether run gamerule commandBlockOutput true
 
 # setblock ~ ~2 ~ bedrock
-setworldspawn
+setworldspawn ~ ~102 ~
 
 
 

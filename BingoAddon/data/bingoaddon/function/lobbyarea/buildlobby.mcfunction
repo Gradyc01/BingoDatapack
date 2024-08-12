@@ -14,8 +14,9 @@ function bingoaddon:lobbyarea/lobby_skilltrees
 function bingoaddon:lobbyarea/lobby_how2play
 function bingoaddon:lobbyarea/lobby_rules
 function bingoaddon:lobbyarea/lobby_special
-
-
+# fill ~-5 ~160 ~-5 ~5 ~165 ~5 barrier
+# fill ~-4 ~161 ~-4 ~4 ~165 ~4 air
+# setblock ~4 ~162 ~ oak_wall_sign[facing=west]{front_text:{messages:['{"text":""}','{"text":"Enter Lobby","color":"gold","bold":true}','{"text":"[Right Click]","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/startgame/solo"}}','{"text":""}']}} replace
 
 
 

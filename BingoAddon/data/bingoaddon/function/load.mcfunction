@@ -74,6 +74,7 @@ function freespace:load
 function commandbook:load
 function souls:load
 function skilltrees:load
+function teleport_sequence:load
 
 
 #purely for the purpose of syntax display to not freak out
