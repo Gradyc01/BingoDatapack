@@ -5,7 +5,17 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:netherite_upgrade_smithing_template"
+            "name": "minecraft:netherite_upgrade_smithing_template",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"text\":\"Netherite Molder\"}",
+                  "minecraft:repair_cost": 999,
+                  "enchantment_glint_override": true
+                }
+              }
+            ]
           }
         ]
       },
