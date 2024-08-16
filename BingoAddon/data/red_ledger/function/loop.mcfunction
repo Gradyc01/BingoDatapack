@@ -1,5 +1,7 @@
 execute as @a[scores={redLedgerTimer=1..}] run scoreboard players remove @s redLedgerTimer 1
-execute as @a[scores={redLedgerTimer=100..}] run playsound minecraft:block.note_block.harp master @s ~ ~ ~ 200
+execute as @a[scores={redLedgerTimer=150..}] run playsound minecraft:block.note_block.harp master @s ~ ~ ~ 200
+
+execute as @a[scores={redLedgerTimer=199..}] run effect give @a nausea 5 0 false
 # execute as @a[scores={redLedgerTimer=2..}] run playsound minecraft:block.metal.hit master @s ~ ~ ~ 200
 
 execute as @a[scores={redLedgerTimer=1}] run execute store result storage red_ledger:tp x int 1 run scoreboard players get @s redLedgerX
