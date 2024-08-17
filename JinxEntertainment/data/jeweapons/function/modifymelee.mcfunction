@@ -31,3 +31,6 @@ execute as @s if items entity @s hotbar.* minecraft:wooden_axe[!lore=['{"text":"
 
 execute as @s if items entity @s hotbar.* minecraft:shield[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:shield, mod:"jeweapons:shield_mod"}
 execute as @s if items entity @s weapon.offhand minecraft:shield[!lore=['{"text":"JE"}']] run function jeweapons:specifymelee {item:shield, mod:"jeweapons:shield_mod"}
+
+execute as @s if items entity @s hotbar.* minecraft:player_head[!repair_cost=888] run function jeweapons:specifymelee {item:player_head, mod:"jeweapons:player_head"}
+execute as @s if items entity @s weapon.offhand minecraft:player_head[!repair_cost=888] run function jeweapons:specifymelee {item:player_head, mod:"jeweapons:player_head"}

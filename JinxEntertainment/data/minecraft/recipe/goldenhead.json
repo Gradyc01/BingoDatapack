@@ -57,7 +57,8 @@
         },
         "minecraft:custom_name": "{\"text\":\"Golden Head\", \"color\":\"#FFFF00\", \"italic\": false}",
         "minecraft:custom_data": "{nobingo:1}",
-        "max_stack_size": 1
+        "max_stack_size": 1,
+        "repair_cost": 888
       }
     }
   }

@@ -4,20 +4,14 @@
     "pattern": [
       "ZZZ",
       "ZYZ",
-      "XUW"
+      "U U"
     ],
     "key": {
-      "X": {
-        "item": "minecraft:writable_book"
-      },
       "Y": {
         "item": "minecraft:map"
       },
       "Z": {
         "item": "minecraft:emerald"
-      },
-      "W": {
-        "item": "minecraft:ender_eye"
       },
       "U": {
         "item": "nether_star"

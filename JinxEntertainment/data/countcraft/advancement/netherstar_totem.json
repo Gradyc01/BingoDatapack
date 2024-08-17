@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:netherstar_totem"
+        }
+      }
+    },
+    "rewards": {
+      "function": "countcraft:crafts/netherstar_totem"
+    }
+  }

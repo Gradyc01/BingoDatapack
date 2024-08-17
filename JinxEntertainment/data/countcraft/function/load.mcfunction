@@ -240,6 +240,26 @@ data modify storage je:craftcount goldenhead append value 1
 data modify storage je:craftcount goldenhead append value 1
 data modify storage je:craftcount goldenhead append value 1
 #==========================================================
+scoreboard objectives add netherstar_totem dummy
+scoreboard players set ?max netherstar_totem 1
+data modify storage je:count netherstar_totem set value 1
+
+data remove storage je:craftmaterials netherstar_totem 
+data modify storage je:craftmaterials netherstar_totem append value "dark_oak_log"
+data modify storage je:craftmaterials netherstar_totem append value "nether_star"
+data modify storage je:craftmaterials netherstar_totem append value "enchanted_golden_apple"
+data modify storage je:craftmaterials netherstar_totem append value "diamond_axe"
+data modify storage je:craftmaterials netherstar_totem append value "ominous_bottle"
+data modify storage je:craftmaterials netherstar_totem append value "air"
+
+data remove storage je:craftcount netherstar_totem 
+data modify storage je:craftcount netherstar_totem append value 4
+data modify storage je:craftcount netherstar_totem append value 2
+data modify storage je:craftcount netherstar_totem append value 1
+data modify storage je:craftcount netherstar_totem append value 1
+data modify storage je:craftcount netherstar_totem append value 1
+data modify storage je:craftcount netherstar_totem append value 1
+#==========================================================
 
 function countcraft:resetplayers
 

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XZX",
+      "#Y#",
+      "X#X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobweb"
+      },
+      "Y": {
+        "item": "minecraft:writable_book"
+      },
+      "Z": {
+        "item": "minecraft:fermented_spider_eye"
+      },
+      "#": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"A Weaver's Silk\", \"color\":\"aqua\", \"italic\": false}",
+        "minecraft:stored_enchantments": {
+          "minecraft:silk_touch": 1
+        }
+      }
+    }
+  }
+  
