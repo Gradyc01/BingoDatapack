@@ -11,3 +11,4 @@ $recipe $(com) $(sel) echolocator:locations/pillager_outpost
 $recipe $(com) $(sel) echolocator:locations/swamp
 $recipe $(com) $(sel) echolocator:locations/woodland_mansion
 $recipe $(com) $(sel) charms:glowcharm
+$recipe $(com) $(sel) portal:teamportal

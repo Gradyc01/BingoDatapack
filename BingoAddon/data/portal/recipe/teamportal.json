@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " Y ",
+      "ZXZ",
+      "XWX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:nether_star"
+      },
+      "Y": {
+        "item": "minecraft:book"
+      },
+      "Z": {
+        "item": "minecraft:golden_apple"
+      },
+      "W": {
+        "item": "shield"
+      }
+    },
+    "result": {
+    "id": "minecraft:phantom_membrane",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 1000000
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_name": "{\"text\":\"Team Portal\", \"color\":\"#00FFFF\", \"italic\": false}",
+      "minecraft:lore": [
+        "{\"text\":\"Warp\"}"
+      ],
+      "custom_data": "{portal:1}",
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+  }

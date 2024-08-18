@@ -66,6 +66,7 @@ function ghost:load
 function bingoaddon:graceperiod/load
 function carepackage:load
 function red_ledger:load
+function portal:load
 function enlightened:load
 function bingoaddon:kitselection/load
 function surface:load

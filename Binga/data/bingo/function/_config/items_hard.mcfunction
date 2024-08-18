@@ -35,4 +35,8 @@ data modify storage bingo:data PossibleItems append value "mace"
 data modify storage bingo:data PossibleItems append value "ominous_trial_key"
 data modify storage bingo:data PossibleItems append value "mangrove_hanging_sign"
 data modify storage bingo:data PossibleItems append value "waxed_copper_grate"
+data modify storage bingo:data PossibleItems append value "netherite_helmet"
+data modify storage bingo:data PossibleItems append value "netherite_chestplate"
+data modify storage bingo:data PossibleItems append value "netherite_leggings"
+data modify storage bingo:data PossibleItems append value "netherite_boots"
 

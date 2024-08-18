@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XYX",
-    "#Z#",
-    "XWX"
+    "XZX",
+    "# #",
+    "XYX"
   ],
   "key": {
     "X": {
@@ -17,9 +17,6 @@
     },
     "Z": {
       "item": "minecraft:firework_rocket"
-    },
-    "W": {
-      "item": "minecraft:ghast_tear"
     }
   },
   "result": {
