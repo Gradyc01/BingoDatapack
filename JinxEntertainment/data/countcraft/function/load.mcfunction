@@ -201,7 +201,7 @@ data modify storage je:craftcount panacea append value 1
 data modify storage je:craftcount panacea append value 1
 #==========================================================
 scoreboard objectives add lightanvil dummy
-scoreboard players set ?max lightanvil 1
+scoreboard players set ?max lightanvil 2
 data modify storage je:count lightanvil set value 1
 
 data remove storage je:craftmaterials lightanvil 

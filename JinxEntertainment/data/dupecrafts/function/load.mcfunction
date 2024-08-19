@@ -127,5 +127,23 @@ data modify storage je:craftcount diamond_pack append value 1
 data modify storage je:craftcount diamond_pack append value 1
 data modify storage je:craftcount diamond_pack append value 1
 #======================================================================
+data modify storage je:count dupe_nautilus set value 8
+
+data remove storage je:craftmaterials dupe_nautilus 
+data modify storage je:craftmaterials dupe_nautilus append value "nautilus_shell"
+data modify storage je:craftmaterials dupe_nautilus append value "nether_star"
+data modify storage je:craftmaterials dupe_nautilus append value "cod"
+data modify storage je:craftmaterials dupe_nautilus append value "air"
+data modify storage je:craftmaterials dupe_nautilus append value "air"
+data modify storage je:craftmaterials dupe_nautilus append value "air"
+
+data remove storage je:craftcount dupe_nautilus 
+data modify storage je:craftcount dupe_nautilus append value 1
+data modify storage je:craftcount dupe_nautilus append value 4
+data modify storage je:craftcount dupe_nautilus append value 4
+data modify storage je:craftcount dupe_nautilus append value 1
+data modify storage je:craftcount dupe_nautilus append value 1
+data modify storage je:craftcount dupe_nautilus append value 1
+#======================================================================
 
 scoreboard players set @a dupeCraftCount 0

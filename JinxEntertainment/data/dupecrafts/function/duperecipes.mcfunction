@@ -5,3 +5,4 @@ $recipe $(com) $(sel) dupecrafts:pack_arrow
 $recipe $(com) $(sel) dupecrafts:pack_gold
 $recipe $(com) $(sel) dupecrafts:pack_iron
 $recipe $(com) $(sel) minecraft:diamond_pack
+$recipe $(com) $(sel) minecraft:dupe_nautilus

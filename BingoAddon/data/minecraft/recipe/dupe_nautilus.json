@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "YZY",
+      "ZXZ",
+      "YZY"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:nautilus_shell"
+      },
+      "Y": {
+        "tag": "minecraft:fishes"
+      },
+      "Z": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "id": "minecraft:nautilus_shell",
+      "count": 8,
+      "components": {
+        "custom_name": "{\"text\":\"Calling of The Sea\", \"color\":\"yellow\", \"italic\": false}"
+      }
+    }
+  }
+  
