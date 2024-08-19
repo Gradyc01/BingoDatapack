@@ -17,6 +17,9 @@
       }
     },
     "result": {
-      "id": "minecraft:blaze_rod"
+      "id": "minecraft:blaze_rod",
+      "components": {
+          "custom_name": "{\"text\":\"Nether Artifact\", \"color\":\"#FFFFFF\", \"italic\": false}"
+      }
     }
   }

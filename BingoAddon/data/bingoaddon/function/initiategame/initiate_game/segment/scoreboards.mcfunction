@@ -8,6 +8,7 @@ scoreboard players set @a echolocatorCooldown 0
 scoreboard players set @a surface 0
 scoreboard players set @a freespace -1
 scoreboard players set @a portalCooldown 0
+scoreboard players set @a aspectOfTheVoid 0
 
 scoreboard players set TeamAScore _bingo 0
 scoreboard players set TeamBScore _bingo 0

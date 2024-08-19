@@ -19,7 +19,7 @@
     "id": "minecraft:clock",
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:custom_name": "{\"text\":\"Echolocator: Pillager Outpost\", \"color\":\"#00FFFF\"}",
+      "minecraft:custom_name": "{\"text\":\"Echolocator: Pillager Outpost\", \"color\":\"#00FFFF\",\"italic\": false}",
       "minecraft:enchantment_glint_override": true,
       "minecraft:custom_data": "{nobingo:1,echolocator:1,structure:3}",
       "minecraft:food": {

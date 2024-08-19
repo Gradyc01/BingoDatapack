@@ -1,2 +1,2 @@
 setblock ~ ~ ~ air
-schedule function bingoaddon:locationchecker/check 1s
+function bingoaddon:locationchecker/check {distance:3000}

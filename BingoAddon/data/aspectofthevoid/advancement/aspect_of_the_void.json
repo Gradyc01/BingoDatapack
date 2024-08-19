@@ -1,0 +1,39 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "weapon.mainhand": {
+                    "items": "minecraft:golden_shovel",
+                    "components": {
+                      "minecraft:custom_data": "{aspect_of_the_void:1}"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "aspectofthevoid:canuse"
+            }
+          ],
+          "item": {
+            "items": "minecraft:golden_shovel",
+            "components": {
+              "minecraft:custom_data": "{aspect_of_the_void:1}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "aspectofthevoid:start"
+    }
+  }
+  

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZYZ",
+    "ZXZ",
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:nether_star"
+    },
+    "Y": {
+      "item": "minecraft:ender_pearl"
+    },
+    "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_shovel",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 1000000
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_name": "{\"text\":\"Aspect of the Void\", \"color\":\"yellow\", \"italic\": false}",
+      "minecraft:lore": [
+        "{\"text\":\"       \", \"italic\": false}",
+        "{\"text\":\"Forward\", \"italic\": false}"
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": "{aspect_of_the_void:1}"
+    }
+  }
+}

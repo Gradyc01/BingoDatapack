@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "aspectOfTheVoid": {
+        "min": -10000,
+        "max": 0
+      }
+    }
+  }

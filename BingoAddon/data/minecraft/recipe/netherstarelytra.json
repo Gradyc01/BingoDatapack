@@ -25,7 +25,8 @@
     "components": {
       "custom_name": "{\"text\":\"Wings of Icarus\", \"color\":\"#00FFFF\", \"italic\": false}",
       "lore": [
-        "{\"text\":\"Fly me to the moon let me play among the stars - Frank Sinatra\"}"
+        "{\"text\":\"Fly me to the moon let me play \"}",
+        "{\"text\":\" among the stars - Frank Sinatra\"}"
       ],
       "enchantments": {
         "unbreaking": 3,

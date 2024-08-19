@@ -14,3 +14,5 @@ execute as @s[scores={echolocator=7,combatTimer=0,echolocatorCooldown=0}] run fu
 execute as @s[scores={echolocator=8,combatTimer=0,echolocatorCooldown=0}] run function echolocator:locate {type:structure, loc:monument}
 execute as @s[scores={echolocator=9,combatTimer=0,echolocatorCooldown=0}] run function echolocator:locate {type:structure, loc:fortress}
 execute as @s[scores={echolocator=10,combatTimer=0,echolocatorCooldown=0}] run function echolocator:locate {type:structure, loc:bastion_remnant}
+execute as @s[scores={echolocator=11,combatTimer=0,echolocatorCooldown=0}] run function echolocator:locate {type:biome, loc:dark_forest}
+execute as @s[scores={echolocator=12,combatTimer=0,echolocatorCooldown=0}] run function echolocator:locate {type:structure, loc:trial_chambers}

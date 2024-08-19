@@ -76,6 +76,7 @@ function commandbook:load
 function souls:load
 function skilltrees:load
 function teleport_sequence:load
+function aspectofthevoid:load
 
 
 #purely for the purpose of syntax display to not freak out

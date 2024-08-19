@@ -10,5 +10,8 @@ $recipe $(com) $(sel) echolocator:locations/ocean_temple
 $recipe $(com) $(sel) echolocator:locations/pillager_outpost
 $recipe $(com) $(sel) echolocator:locations/swamp
 $recipe $(com) $(sel) echolocator:locations/woodland_mansion
+$recipe $(com) $(sel) echolocator:locations/dark_oak
+$recipe $(com) $(sel) echolocator:locations/trials
 $recipe $(com) $(sel) charms:glowcharm
 $recipe $(com) $(sel) portal:teamportal
+$recipe $(com) $(sel) aspectofthevoid:aspect_of_the_void

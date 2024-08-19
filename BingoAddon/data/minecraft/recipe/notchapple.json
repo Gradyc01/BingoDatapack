@@ -16,7 +16,7 @@
   "result": {
     "id": "minecraft:enchanted_golden_apple",
     "components": {
-            "custom_name": "{\"text\":\"Notch Apple\", \"color\":\"#00FFFF\"}"
+            "custom_name": "{\"text\":\"Notch Apple\", \"color\":\"#FF55FF\", \"italic\": false}"
         }
     }
 }

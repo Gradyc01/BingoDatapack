@@ -4,4 +4,5 @@ execute if score @s commandBook matches 3 as @s run function commandbook:command
 execute if score @s commandBook matches 4 as @s run function commandbook:commands/allboarditems
 execute if score @s commandBook matches 5 as @s run function commandbook:commands/spawn_teleport
 execute if score @s commandBook matches 6 as @s run function commandbook:commands/surface
+execute if score @s commandBook matches 7 as @s run function commandbook:commands/fooddrops
 function commandbook:reset_player {adv:"commandbook:trigger"}

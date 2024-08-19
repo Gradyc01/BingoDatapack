@@ -17,6 +17,9 @@
     }
   },
   "result": {
-    "id": "minecraft:shulker_box"
+    "id": "minecraft:shulker_box",
+    "components": {
+        "custom_name": "{\"text\":\"Backpack\", \"color\":\"#FFFFFF\", \"italic\": false}"
+    }
   }
 }
