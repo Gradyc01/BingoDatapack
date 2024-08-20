@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "tag": "enlightened:blooditems"
+      }
+    },
+    "result": {
+      "id": "minecraft:trial_spawner",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"The Enlightened Wither\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:lore": [
+            "{\"text\":\"Fate\", \"italic\": false}"
+        ],
+        "minecraft:custom_data": "{wither:1}",
+        "minecraft:repair_cost": 999,
+        "minecraft:enchantment_glint_override": true
+      }
+    }
+  }
+  

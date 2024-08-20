@@ -15,5 +15,6 @@ item replace entity @s inventory.1 with minecraft:bow[minecraft:custom_data={nob
 item replace entity @s inventory.2 with minecraft:arrow
 function commandbook:give_book
 
+function enlightened:loss_enlightened
 
 function admin:selectorlog {text:" Cleared Success"}
