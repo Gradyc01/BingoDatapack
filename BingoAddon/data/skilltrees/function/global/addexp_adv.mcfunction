@@ -2,8 +2,9 @@
 $advancement revoke @s only $(adv)
 $scoreboard players set @s $(gained) $(num)
 # $scoreboard players operation @s $(gained) *= ?multipler $(gained)
-
+$scoreboard players operation @s $(gained) *= @s personalMultipler
 $scoreboard players operation @s $(exp) += @s $(gained)
+
 
 $execute if score @s $(exp) >= @s $(capacity) run function $(check)
 

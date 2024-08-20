@@ -1,5 +1,6 @@
 $execute store result score @s $(gained) run clear @s minecraft:player_head[minecraft:custom_data={exptype:$(type)}]
 $scoreboard players operation @s $(gained) *= ?multipler $(gained)
+$scoreboard players operation @s $(gained) *= @s personalMultipler
 
 $scoreboard players operation @s $(exp) += @s $(gained)
 

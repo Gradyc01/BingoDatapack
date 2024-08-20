@@ -78,6 +78,14 @@
                   "per_level_above_first": 0.01
                 }
               }
+            ],
+            "functions": [
+              {
+                "function": "set_components", 
+                  "components": {
+                    "max_stack_size": 1
+                  }
+              }
             ]
           },
           {
@@ -90,6 +98,14 @@
                 "predicate": {
                   "nbt": "{Tags:[\"superMob\"]}"
                 }
+              }
+            ],
+            "functions": [
+              {
+                "function": "set_components", 
+                  "components": {
+                    "max_stack_size": 1
+                  }
               }
             ]
           }

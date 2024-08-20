@@ -1,0 +1,141 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sea_lantern"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:honey_block"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sponge"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crying_obsidian"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dead_bubble_coral_fan"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trident"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_berries"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:end_crystal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:soul_lantern"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wither_skeleton_skull"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:big_dripleaf"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poisonous_potato"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:name_tag"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lodestone"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sculk_sensor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:axolotl_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:goat_horn"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wolf_armor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_horse_armor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sea_pickle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:recovery_compass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_pigstep"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heavy_core"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ominous_trial_key"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mangrove_hanging_sign"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:waxed_copper_grate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:conduit"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:honeycomb_block"
+          }
+        ]
+      }
+    ]
+  }

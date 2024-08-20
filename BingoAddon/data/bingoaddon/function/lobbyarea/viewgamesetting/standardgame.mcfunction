@@ -11,4 +11,4 @@ scoreboard players set linesBeforeWin booleans 3
 
 # tellraw @a [{"color":"gold","text":"[Bingo Preset]"},{"color":"aqua","text":" Standard"}]
 # function playingsounds:playx {who:"@a", sound:block.note_block.pling, pitch:2, volume:100}
-function bingoaddon:lobbyarea/viewgamesetting/_gametype {text:"Standard", color:"yellow", time:"2 Hour"}
+function bingoaddon:lobbyarea/viewgamesetting/_gametype {text:"Standard", color:"yellow", time:"90 Min"}

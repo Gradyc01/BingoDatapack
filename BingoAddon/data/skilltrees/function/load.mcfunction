@@ -1,5 +1,6 @@
 function skilltrees:mining/load
 function skilltrees:foraging/load
+scoreboard objectives add personalMultipler dummy
 scoreboard objectives add skilltrees dummy
 data modify storage skilltrees:textlines 1 set value " "
 data modify storage skilltrees:textlines 2 set value " "

@@ -1,0 +1,65 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_boots",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_chestplate",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_helmet",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_leggings",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_pickaxe",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_shovel",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_hoe",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_shovel",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_ingot",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_block",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  
