@@ -1,4 +1,4 @@
-execute positioned as @a[limit=3,distance=..40, gamemode=survival] run summon lightning_bolt ~ ~ ~
+execute positioned as @a[limit=3,distance=..40, gamemode=survival,sort=random] run summon lightning_bolt ~ ~ ~
 summon lightning_bolt ~5 ~ ~5
 summon lightning_bolt ~-5 ~ ~5
 summon lightning_bolt ~-5 ~ ~-5
