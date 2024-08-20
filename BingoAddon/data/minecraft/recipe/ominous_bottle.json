@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      " # ",
-      "XYW",
-      "AZB"
+      "X#X",
+      "XYX",
+      "XZX"
     ],
     "key": {
       "X": {
-        "item": "minecraft:crossbow"
+        "item": "emerald"
       },
       "Y": {
         "item": "minecraft:nether_star"
@@ -17,15 +17,6 @@
       },
       "#": {
         "item": "minecraft:carved_pumpkin"
-      },
-      "W": {
-        "item": "minecraft:diamond_axe"
-      },
-      "A": {
-        "item": "minecraft:emerald_block"
-      },
-      "B": {
-        "item": "minecraft:iron_block"
       }
     },
     "result": {

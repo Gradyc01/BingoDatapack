@@ -3,7 +3,7 @@
     "pattern": [
       "XXX",
       "WYW",
-      "Z#Z"
+      "ZZZ"
     ],
     "key": {
       "X": {
@@ -14,9 +14,6 @@
       },
       "Z": {
         "item": "mossy_cobblestone"
-      },
-      "#": {
-        "item": "composter"
       },
       "W": {
         "item": "lily_pad"

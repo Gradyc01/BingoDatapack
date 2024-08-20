@@ -12,16 +12,16 @@
         "item": "command_block"
       },
       "Y": {
-        "item": "sandstone"
+        "item": "sand"
       }
     },
     "result": {
     "id": "minecraft:clock",
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:custom_name": "{\"text\":\"Echolocator: Desert Temple\", \"color\":\"#00FFFF\",\"italic\": false}",
+      "minecraft:custom_name": "{\"text\":\"Echolocator: Desert\", \"color\":\"#00FFFF\",\"italic\": false}",
       "minecraft:enchantment_glint_override": true,
-      "minecraft:custom_data": "{nobingo:1,echolocator:1,structure:6}",
+      "minecraft:custom_data": "{nobingo:1,echolocator:1,structure:13}",
       "minecraft:food": {
         "nutrition": 0,
         "saturation": 0,

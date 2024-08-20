@@ -50,6 +50,7 @@ function bingoaddon:locationchecker/checklocation {type:structure, loc:desert_py
 function bingoaddon:locationchecker/checklocation {type:biome, loc:mushroom_fields, points: 5, dif:Hard}
 function bingoaddon:locationchecker/checklocation {type:structure, loc:mansion, points: 5, dif:Hard}
 function bingoaddon:locationchecker/checklocation {type:structure, loc:ancient_city, points: 5, dif:Hard}
+function bingoaddon:locationchecker/checklocation {type:biome, loc:mangrove_swamp, points: 5, dif:Hard}
 
 scoreboard players operation ?location _bingo *= ?100 _bingo
 scoreboard players operation ?locationEasy _bingo *= ?100 _bingo

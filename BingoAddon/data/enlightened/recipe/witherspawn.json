@@ -2,12 +2,18 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
       "XXX",
-      "XXX",
-      "XXX"
+      "XYX",
+      "YZY"
     ],
     "key": {
       "X": {
         "tag": "enlightened:blooditems"
+      },
+      "Y": {
+        "item": "obsidian"
+      },
+      "Z": {
+        "item": "stone_sword"
       }
     },
     "result": {
@@ -15,7 +21,10 @@
       "components": {
         "minecraft:custom_name": "{\"text\":\"The Enlightened Wither\", \"color\":\"#00FFFF\", \"italic\": false}",
         "minecraft:lore": [
-            "{\"text\":\"Fate\", \"italic\": false}"
+            "{\"text\":\"Be careful with who you call on\", \"italic\": false}",
+            "{\"text\":\"\", \"italic\": false}",
+            "{\"text\":\"The Enlightened Wither will \", \"italic\": false}",
+            "{\"text\":\"always spawn on the surface\", \"italic\": false}"
         ],
         "minecraft:custom_data": "{wither:1}",
         "minecraft:repair_cost": 999,

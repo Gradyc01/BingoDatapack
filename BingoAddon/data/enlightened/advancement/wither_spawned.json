@@ -8,6 +8,6 @@
       }
     },
     "rewards": {
-      "function": "enlightened:wither/start"
+      "function": "enlightened:wither/check"
     }
   }

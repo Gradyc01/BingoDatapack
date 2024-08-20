@@ -12,7 +12,9 @@ $recipe $(com) $(sel) echolocator:locations/swamp
 $recipe $(com) $(sel) echolocator:locations/woodland_mansion
 $recipe $(com) $(sel) echolocator:locations/dark_oak
 $recipe $(com) $(sel) echolocator:locations/trials
+$recipe $(com) $(sel) echolocator:locations/desert
 $recipe $(com) $(sel) charms:glowcharm
 $recipe $(com) $(sel) portal:teamportal
 $recipe $(com) $(sel) aspectofthevoid:aspect_of_the_void
-$execute if score enableEnlightened booleans matches 1 as @s run recipe $(com) $(sel) enlightened:witherspawn
+# $execute if score enableEnlightened booleans matches 1 as @s run recipe $(com) $(sel) enlightened:witherspawn
+$recipe $(com) $(sel) enlightened:witherspawn
