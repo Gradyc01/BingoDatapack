@@ -1,1 +1,1 @@
-execute if predicate souls:enabled run function souls:addsouls/general {base:75, bonus:0, adv:"none"}
+execute if predicate souls:enabled run function souls:addsouls/general {base:70, bonus:0, adv:"none"}

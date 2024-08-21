@@ -1,1 +1,1 @@
-function souls:addsouls/general {base:7, bonus:2, adv:"souls:killed_humanoid"}
+function souls:addsouls/general {base:10, bonus:2, adv:"souls:killed_humanoid"}

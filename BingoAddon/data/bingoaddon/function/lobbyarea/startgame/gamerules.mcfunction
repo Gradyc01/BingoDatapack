@@ -1,5 +1,6 @@
 gamerule doDaylightCycle false
 gamerule sendCommandFeedback true
+gamerule doWeatherCycle false
 time set day
 weather clear
 execute positioned as @e[type=armor_stand, name="SpawnCoords"] run worldborder center 0 0
