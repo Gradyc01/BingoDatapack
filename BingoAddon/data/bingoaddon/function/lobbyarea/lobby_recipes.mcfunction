@@ -55,4 +55,4 @@ setblock ~2 ~102 ~18 oak_wall_sign[facing=north]{front_text:{messages:['{"text":
 setblock ~4 ~102 ~18 oak_wall_sign[facing=north]{front_text:{messages:['{"text":""}','{"text":"Standard","color":"gold","bold":true}','{"text":"Recipes","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewrecipes/show_standard"}}','{"text":""}']}} replace
 setblock ~ ~102 ~18 oak_wall_sign[facing=north]{front_text:{messages:['{"text":""}','{"text":"Ascension","color":"gold","bold":true}','{"text":"Recipes","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function bingoaddon:lobbyarea/viewrecipes/show_ascension"}}','{"text":""}']}} replace
 
-summon armor_stand ~ ~103.5 ~18 {Small:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Click To View Recipes"}'}
+summon armor_stand ~ ~103.5 ~18 {Small:1b,CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["lobby"],CustomName:'{"bold":true,"color":"gold","text":"Click To View Recipes"}'} 
