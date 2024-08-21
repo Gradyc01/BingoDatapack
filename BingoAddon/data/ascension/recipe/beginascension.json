@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "XZY",
+      "YYY"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:emerald"
+      },
+      "Y": {
+        "item": "minecraft:diamond"
+      },
+      "Z": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "id": "minecraft:reinforced_deepslate",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Begin Ascension\", \"color\":\"light_purple\", \"italic\": false}",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": "{ascension:1}",
+        "minecraft:lore": [
+        "{\"text\":\"This is not for the everyone.\"}",
+        "{\"text\":\"You will feel weak\"}",
+        "{\"text\":\"You will feel defenseless\"}",
+        "{\"text\":\"You will feel the power of Ascension\"}"
+        ]
+      }
+    }
+  }
+  

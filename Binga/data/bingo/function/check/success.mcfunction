@@ -15,4 +15,5 @@ function bingo:check/pattern {0:"04",1:"14",2:"24",3:"34",4:"44"}
 function bingo:check/pattern {0:"00",1:"11",2:"22",3:"33",4:"44"}
 function bingo:check/pattern {0:"04",1:"13",2:"22",3:"31",4:"40"}
 
-execute if score game_in_progress _bingo matches 1 if score win _bingo >= linesBeforeWin booleans if score @s enlightened matches 1.. run function bingo:winner/winner
+# execute if score game_in_progress _bingo matches 1 if score win _bingo >= linesBeforeWin booleans if score @s enlightened matches 1.. run function bingo:winner/winner
+execute if score game_in_progress _bingo matches 1 if score win _bingo >= linesBeforeWin booleans if entity @s[tag=Ascension] run function bingo:winner/winner

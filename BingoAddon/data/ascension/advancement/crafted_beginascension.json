@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "ascension:beginascension"
+        }
+      }
+    },
+    "rewards": {
+      "function": "ascension:ascension/start"
+    }
+  }

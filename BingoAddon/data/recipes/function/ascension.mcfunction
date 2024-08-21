@@ -1,0 +1,1 @@
+$recipe $(com) $(sel) ascension:beginascension

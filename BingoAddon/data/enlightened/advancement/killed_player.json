@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player"
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "enlightened": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "enlightened:enlightened"
+    }
+  }

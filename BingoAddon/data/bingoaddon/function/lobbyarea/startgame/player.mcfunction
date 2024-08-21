@@ -16,5 +16,10 @@ item replace entity @s inventory.2 with minecraft:arrow
 function commandbook:give_book
 
 function enlightened:loss_enlightened
+function ascension:player/remove_buffs
+function ascension:player/remove_debuffs
+tag @s remove Ascension
+tag @s remove attemptingAscension
+tag @s remove food
 
 function admin:selectorlog {text:" Cleared Success"}
