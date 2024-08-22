@@ -15,5 +15,11 @@ function bingo:check/pattern {0:"04",1:"14",2:"24",3:"34",4:"44"}
 function bingo:check/pattern {0:"00",1:"11",2:"22",3:"33",4:"44"}
 function bingo:check/pattern {0:"04",1:"13",2:"22",3:"31",4:"40"}
 
+execute as @s[team=TeamNone] run function bingo:check/lines/check {team:TeamNone}
+execute as @s[team=TeamA] run function bingo:check/lines/check {team:TeamA}
+execute as @s[team=TeamB] run function bingo:check/lines/check {team:TeamB}
+execute as @s[team=TeamC] run function bingo:check/lines/check {team:TeamC}
+execute as @s[team=TeamD] run function bingo:check/lines/check {team:TeamD}
+
 # execute if score game_in_progress _bingo matches 1 if score win _bingo >= linesBeforeWin booleans if score @s enlightened matches 1.. run function bingo:winner/winner
 execute if score game_in_progress _bingo matches 1 if score win _bingo >= linesBeforeWin booleans if entity @s[tag=Ascension] run function bingo:winner/winner

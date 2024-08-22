@@ -21,6 +21,12 @@ scoreboard players set TeamCScore ItemsObtained 0
 scoreboard players set TeamDScore ItemsObtained 0
 scoreboard players set @a ItemsObtained 0
 
+scoreboard players set TeamAScore Lines 0
+scoreboard players set TeamBScore Lines 0
+scoreboard players set TeamCScore Lines 0
+scoreboard players set TeamDScore Lines 0
+scoreboard players set @a Lines 0
+
 
 function countcraft:resetplayers
 function souls:reset

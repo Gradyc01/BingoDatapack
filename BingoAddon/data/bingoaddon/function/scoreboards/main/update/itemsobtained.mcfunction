@@ -1,4 +1,5 @@
 scoreboard players reset @e[tag=mainDisplay,type=#playersandarmor] maingameboard
+scoreboard players reset @a[scores={maingameboard=0}] maingameboard
 function bingoaddon:scoreboards/findtopplayers/start
 execute as @a[tag=mainDisplay] run scoreboard players operation @s maingameboard = @s ItemsObtained
 execute as @e[limit=1,type=armor_stand,tag=mainDisplay,name="TeamA"] run scoreboard players operation @s maingameboard = TeamAScore ItemsObtained
