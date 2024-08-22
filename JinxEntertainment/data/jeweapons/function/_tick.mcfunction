@@ -19,7 +19,7 @@
 
 
 function mobs:tick
-function playercompass:tick
+# function playercompass:tick
 
 
 

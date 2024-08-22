@@ -1,1 +1,1 @@
-item replace entity @s hotbar.7 with compass[max_stack_size=1,custom_name='[{"bold":false,"color":"dark_green","italic":false,"text":"Player Tracking Compass "},{"color":"dark_gray","text":"[Opponents Only]"}]',lore=['{"italic":false,"text":"When held, tracks the closest player to you."}','"  "','{"bold":false,"italic":false,"text":"Consumes Redstone as Fuel "}','"  "','{"italic":false,"text":"Does not work in combat"}'],repair_cost=999,enchantment_glint_override=true] 1
+function #playercompass:give

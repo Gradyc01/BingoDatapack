@@ -1,0 +1,1 @@
+$execute store success score ?real compassTimer if entity $(name)
