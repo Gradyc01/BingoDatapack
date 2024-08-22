@@ -1,0 +1,2 @@
+execute positioned as @e[type=armor_stand,limit=1,tag=scavenger] run function scavenger_hunt:buildhut/hut
+execute positioned as @e[type=armor_stand,limit=1,tag=scavenger] run function scavenger_hunt:buildhut/villager

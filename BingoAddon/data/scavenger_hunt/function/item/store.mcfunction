@@ -1,0 +1,1 @@
+$data modify storage scavenger:data itemID set from storage bingo:data PossibleItems[$(itemNumber)]

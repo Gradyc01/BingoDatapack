@@ -1,0 +1,1 @@
+summon villager ~ ~1 ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["scavenger"]}
