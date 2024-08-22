@@ -32,7 +32,7 @@ execute if score overall_timer timer matches 1057 run tellraw @a {"text": "3 Sec
 execute if score overall_timer timer matches 1057 run function playingsounds:playping
 execute if score overall_timer timer matches 1058 run tellraw @a {"text": "2 Seconds Before DeathMatch", "color": "gold", "bold": true}
 execute if score overall_timer timer matches 1058 run function playingsounds:playping
-execute if score overall_timer timer matches 1059 run tellraw @a {"text": "1 Second Before DeathMatch", "color": "gold", "bold": true}
+execute if score overall_timer timer matches 1059 run tellraw @a {"text": "1 Second Before DeathMatch", "color": "gold", "bold": true} 
 execute if score overall_timer timer matches 1059 run function playingsounds:playping
 execute if score overall_timer timer matches 1050 run scoreboard players set @a[scores={deathTimer=1..}] deathTimer 5
 
