@@ -16,5 +16,5 @@ $recipe $(com) $(sel) echolocator:locations/desert
 $recipe $(com) $(sel) charms:glowcharm
 $recipe $(com) $(sel) portal:teamportal
 $recipe $(com) $(sel) aspectofthevoid:aspect_of_the_void
-# $execute if score enableEnlightened booleans matches 1 as @s run recipe $(com) $(sel) enlightened:witherspawn
-$recipe $(com) $(sel) enlightened:witherspawn
+$execute if score enableEnlightened booleans matches 1 run recipe $(com) $(sel) enlightened:witherspawn
+# $recipe $(com) $(sel) enlightened:witherspawn
