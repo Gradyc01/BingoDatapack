@@ -1,6 +1,4 @@
 #Calculate Ascension Time
-advancement revoke @s only ascension:crafted_beginascension
-clear @s reinforced_deepslate[custom_data={ascension:1}]
 tag @a[tag=successChecker] remove successChecker
 tag @s add successChecker
 execute as @s[team=TeamA] run function ascension:ascension/calculate {team:TeamA}
@@ -24,8 +22,8 @@ execute if entity @s[team=TeamD] as @a[team=TeamD] run function ascension:ascens
 execute as @s run function ascension:ascension/perks/successbenefits
 
 #Anchor Point
-# summon armor_stand ~ ~ ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
-summon armor_stand ~ ~ ~ {CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
+summon armor_stand ~ ~ ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
+# summon armor_stand ~ ~ ~ {CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
 execute as @e[type=armor_stand,limit=1,tag=AscensionAnchor] run forceload add ~ ~
 execute as @e[type=armor_stand,limit=1,tag=AscensionAnchor] run function ascension:build/arena
 

@@ -8,6 +8,6 @@
       }
     },
     "rewards": {
-      "function": "ascension:ascension/start"
+      "function": "ascension:check"
     }
   }
