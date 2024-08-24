@@ -29,6 +29,6 @@
       }
     },
     "rewards": {
-      "function": "red_ledger:red_ledger"
+      "function": "red_ledger:start"
     }
   }

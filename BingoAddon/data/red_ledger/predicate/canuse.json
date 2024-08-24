@@ -1,0 +1,13 @@
+[
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "combatTimer": {
+          "min": -10000,
+          "max": 0
+        }
+      }
+    }
+  ]
+  

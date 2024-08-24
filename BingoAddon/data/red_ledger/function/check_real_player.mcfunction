@@ -1,0 +1,1 @@
+$execute store success score ?real redLedgerTimer if entity $(name)
