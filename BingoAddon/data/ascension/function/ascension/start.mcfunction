@@ -22,6 +22,14 @@ execute if entity @s[team=TeamB] as @a[team=TeamB] run function ascension:ascens
 execute if entity @s[team=TeamC] as @a[team=TeamC] run function ascension:ascension/perks/successbenefits
 execute if entity @s[team=TeamD] as @a[team=TeamD] run function ascension:ascension/perks/successbenefits
 execute as @s run function ascension:ascension/perks/successbenefits
+
+#Anchor Point
+# summon armor_stand ~ ~ ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
+summon armor_stand ~ ~ ~ {CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
+execute as @e[type=armor_stand,limit=1,tag=AscensionAnchor] run forceload add ~ ~
+execute as @e[type=armor_stand,limit=1,tag=AscensionAnchor] run function ascension:build/arena
+
+
 #Begin Ascension
 function ascension:ascension/loop
 schedule function ascension:ascension/delay_take_recipe 1t

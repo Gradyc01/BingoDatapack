@@ -19,4 +19,9 @@ execute as @s[team=TeamC] run function ascension:player/recipe {team:TeamC, com:
 execute as @s[team=TeamD] run function ascension:player/recipe {team:TeamD, com:take}
 execute as @s[team=TeamNone] run function ascension:player/recipe {team:TeamNone, com:take}
 
+#Remove Anchor
+function ascension:build/kill
+
+function scavenger_hunt:kill/removeforceload with storage scavenger:data
+
 function ascension:text/denied

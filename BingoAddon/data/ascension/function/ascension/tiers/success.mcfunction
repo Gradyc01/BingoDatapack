@@ -17,4 +17,6 @@ execute as @s[team=TeamB] run team modify TeamB prefix {"text":"[B] ","color":"#
 execute as @s[team=TeamC] run team modify TeamC prefix {"text":"[C] ","color":"#FFFFFF"}
 execute as @s[team=TeamD] run team modify TeamD prefix {"text":"[D] ","color":"#FFFFFF"}
 
+#Kill Anchor
+schedule function ascension:build/kill 1s
 
