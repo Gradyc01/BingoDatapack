@@ -1,3 +1,4 @@
 function scoreboards:editline {obj:maingameboard, line:-2, text:"{\"text\": \" Ascension: \", \"color\": \"gold\", \"bold\": true}"}
 $execute if score ?seconds Ascension matches 10..100 run function scoreboards:editline {obj:maingameboard, line:-3, text:"{\"text\": \"     $(minutes):$(seconds)\", \"color\": \"white\", \"bold\": false}"}
 $execute if score ?seconds Ascension matches 0..9 run function scoreboards:editline {obj:maingameboard, line:-3, text:"{\"text\": \"     $(minutes):0$(seconds)\", \"color\": \"white\", \"bold\": false}"}
+$function scoreboards:editline {obj:maingameboard, line:-4, text:"{\"text\": \"($(x), $(z)) \", \"color\": \"aqua\", \"bold\": false}"}

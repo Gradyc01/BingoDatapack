@@ -26,7 +26,8 @@ summon armor_stand ~ ~ ~ {Marker:1b,Small:1b,NoGravity:1b,Silent:1b,Invulnerable
 # summon armor_stand ~ ~ ~ {CustomName:'{"text":"AscensionAnchor"}',Tags:["AscensionAnchor"]}
 execute as @e[type=armor_stand,limit=1,tag=AscensionAnchor] run forceload add ~ ~
 execute as @e[type=armor_stand,limit=1,tag=AscensionAnchor] run function ascension:build/arena
-
+execute store result storage ascension:timer x int 1 run data get entity @e[type=armor_stand,limit=1,tag=AscensionAnchor] Pos[0]
+execute store result storage ascension:timer z int 1 run data get entity @e[type=armor_stand,limit=1,tag=AscensionAnchor] Pos[2]
 
 #Begin Ascension
 function ascension:ascension/loop
