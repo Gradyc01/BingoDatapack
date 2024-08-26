@@ -7,5 +7,5 @@ execute positioned as @e[type=armor_stand, name="SpawnCoords"] run worldborder c
 execute positioned as @e[type=armor_stand, name="SpawnCoords"] run worldborder set 59999968 0
 # execute positioned as @e[type=armor_stand, name="SpawnCoords"] run worldborder set 61 0
 function bingoaddon:stop_timer
-function scavenger_hunt:kill
+function scavenger_hunt:reset
 function admin:log {text:"Gamerules Success!"}

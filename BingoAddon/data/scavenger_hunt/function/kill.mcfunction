@@ -6,3 +6,4 @@ execute unless entity @a[tag=scav_success] run tellraw @a ["<",{"color": "gray",
 execute if entity @a[tag=scav_success] run tellraw @a ["<",{"color": "gray", "text": "Scavenger"},"> Thank you for the help everyone!"]
 advancement revoke @a[tag=scav_success] only scavenger_hunt:scav_vil
 tag @a[tag=scav_success] remove scav_success
+function playingsounds:playx {who:"@a", sound:block.note_block.harp, pitch:1, volume:100}

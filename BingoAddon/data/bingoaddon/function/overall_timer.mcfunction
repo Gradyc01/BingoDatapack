@@ -5,18 +5,17 @@ execute if score overall_timer timer matches 1 run function playingsounds:playpi
 execute if score overall_timer timer matches 1 run advancement revoke @a only bingo:inventory
 execute if score overall_timer timer matches 1 run advancement grant @a only bingo:inventory
 
-execute if score overall_timer timer matches 14 run execute if score endGracePeriod booleans matches 1 run function carepackage:package_findcoords
+execute if score overall_timer timer matches 5 run execute if score endGracePeriod booleans matches 1 run function scavenger_hunt:start
 
-# execute if score overall_timer timer matches 900 run execute positioned as @e[type=armor_stand, name="SpawnCoords"] run fill ~-3 ~ ~-3 ~3 ~7 ~3 air
+execute if score overall_timer timer matches 20 run execute if score endGracePeriod booleans matches 1 run function carepackage:package_findcoords
 
-
-execute if score overall_timer timer matches 30 run tellraw @a {"text": "30 Minutes Before DeathMatch", "color": "gold", "bold": true}
+# execute if score overall_timer timer matches 30 run tellraw @a {"text": "30 Minutes Before DeathMatch", "color": "gold", "bold": true}
 execute if score overall_timer timer matches 30 run execute if score endGracePeriod booleans matches 0 run function bingoaddon:graceperiod/end_grace_period
-execute if score overall_timer timer matches 30 run function playingsounds:playping
+# execute if score overall_timer timer matches 30 run function playingsounds:playping
 
-execute if score overall_timer timer matches 31 run function scavenger_hunt:start
+execute if score overall_timer timer matches 35 run function scavenger_hunt:start
 
-execute if score overall_timer timer matches 46 run function carepackage:package_findcoords
+execute if score overall_timer timer matches 45 run function carepackage:package_findcoords
 
 execute if score overall_timer timer matches 59 run tellraw @a {"text": "1 Minutes Before DeathMatch", "color": "gold", "bold": true}
 execute if score overall_timer timer matches 59 run scoreboard players set @a teleportCooldown 120
