@@ -13,5 +13,6 @@ execute in minecraft:the_nether run gamerule naturalRegeneration false
 execute in minecraft:the_nether run gamerule doImmediateRespawn true
 execute in minecraft:the_nether run gamerule doLimitedCrafting true
 execute in minecraft:the_nether run gamerule commandBlockOutput false
+execute in minecraft:the_nether run gamerule sendCommandFeedback false
 
 function admin:log {text:"Gamerules Success!"}
