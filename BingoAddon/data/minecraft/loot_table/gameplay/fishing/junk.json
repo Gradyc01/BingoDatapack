@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lily_pad",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:water"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ink_sac",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3,
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_ink_sac",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tripwire_hook",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bamboo",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mangrove_log",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/junk"
+  }
+  
