@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "Pandora Box",
+    "pattern": [
+      "YXY",
+      "YZY",
+      "YXY"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:nether_star"
+      },
+      "Y": {
+        "item": "minecraft:chest"
+      },
+      "Z": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:gray_shulker_box",
+      "components": {
+        "minecraft:custom_name": "[{\"text\":\"Pandora's Box: \", \"color\": \"#00FFFF\", \"italic\":false},{\"text\":\"Overworld\", \"color\": \"gold\"}]",
+        "minecraft:container_loot": {
+          "loot_table": "pandora_box:overworld"
+        }
+      }
+    }
+  }
+  

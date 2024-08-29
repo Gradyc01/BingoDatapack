@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "items": "minecraft:crossbow",
+            "components": {
+              "minecraft:custom_data": "{crossbow:2}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jeweapons:crossbows/flash"
+    }
+  }
+  

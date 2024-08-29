@@ -22,3 +22,8 @@ $recipe $(com) $(sel) minecraft:potion_of_velocity
 $recipe $(com) $(sel) minecraft:kingsrod
 $recipe $(com) $(sel) minecraft:goldenhead
 $recipe $(com) $(sel) minecraft:flint_shovel
+
+##Crossbows
+$recipe $(com) $(sel) jeweapons:crossbow/quick
+
+

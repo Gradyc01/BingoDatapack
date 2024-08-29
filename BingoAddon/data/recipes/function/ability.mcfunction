@@ -18,3 +18,14 @@ $recipe $(com) $(sel) portal:teamportal
 # $recipe $(com) $(sel) aspectofthevoid:aspect_of_the_void
 $execute if score enableEnlightened booleans matches 1 run recipe $(com) $(sel) enlightened:witherspawn
 # $recipe $(com) $(sel) enlightened:witherspawn
+
+##Pandora's Box
+$recipe $(com) $(sel) pandora_box:overworld
+$recipe $(com) $(sel) pandora_box:underground
+$recipe $(com) $(sel) pandora_box:underworld
+$recipe $(com) $(sel) pandora_box:village
+$recipe $(com) $(sel) pandora_box:rejuvenation
+
+##Ability
+$recipe $(com) $(sel) jeweapons:crossbow/mark
+$recipe $(com) $(sel) jeweapons:crossbow/flash

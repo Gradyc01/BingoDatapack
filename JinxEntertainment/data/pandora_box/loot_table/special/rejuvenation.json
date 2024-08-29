@@ -1,0 +1,93 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 6,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:sharpness",
+                  "minecraft:infinity",
+                  "minecraft:power",
+                  "minecraft:flame",
+                  "minecraft:fire_aspect",
+                  "minecraft:unbreaking"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:sharpness",
+                  "minecraft:infinity",
+                  "minecraft:power",
+                  "minecraft:flame",
+                  "minecraft:fire_aspect",
+                  "minecraft:unbreaking"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 6,
+                  "max": 8
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

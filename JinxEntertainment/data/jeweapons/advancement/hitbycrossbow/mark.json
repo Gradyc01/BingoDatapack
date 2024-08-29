@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "taken": {
+              "min": 1
+            },
+            "type": {
+              "direct_entity": {
+                "type": "minecraft:arrow",
+                "nbt": "{Tags:[\"cross_mark\"]}"
+              },
+              "is_direct": false
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jeweapons:hitbycrossbow/mark"
+    }
+  }
+  
