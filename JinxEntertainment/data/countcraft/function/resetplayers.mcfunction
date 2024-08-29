@@ -11,3 +11,4 @@ scoreboard players set @a panacea 0
 scoreboard players set @a lightanvil 0
 scoreboard players set @a goldenhead 0
 scoreboard players set @a netherstar_totem 0
+scoreboard players set @a netherstarfirework 0

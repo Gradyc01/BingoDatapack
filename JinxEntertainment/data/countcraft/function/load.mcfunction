@@ -260,6 +260,26 @@ data modify storage je:craftcount netherstar_totem append value 1
 data modify storage je:craftcount netherstar_totem append value 1
 data modify storage je:craftcount netherstar_totem append value 1
 #==========================================================
+scoreboard objectives add netherstarfirework dummy
+scoreboard players set ?max netherstarfirework 2
+data modify storage je:count netherstarfirework set value 16
+
+data remove storage je:craftmaterials netherstarfirework 
+data modify storage je:craftmaterials netherstarfirework append value "paper"
+data modify storage je:craftmaterials netherstarfirework append value "nether_star"
+data modify storage je:craftmaterials netherstarfirework append value "gunpowder"
+data modify storage je:craftmaterials netherstarfirework append value "air"
+data modify storage je:craftmaterials netherstarfirework append value "air"
+data modify storage je:craftmaterials netherstarfirework append value "air"
+
+data remove storage je:craftcount netherstarfirework 
+data modify storage je:craftcount netherstarfirework append value 6
+data modify storage je:craftcount netherstarfirework append value 1
+data modify storage je:craftcount netherstarfirework append value 2
+data modify storage je:craftcount netherstarfirework append value 1
+data modify storage je:craftcount netherstarfirework append value 1
+data modify storage je:craftcount netherstarfirework append value 1
+#==========================================================
 
 function countcraft:resetplayers
 

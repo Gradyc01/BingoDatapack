@@ -6,7 +6,7 @@
 data modify storage scavenger:data PossibleItems append value "honeycomb"
 # data modify storage scavenger:data PossibleItems append value "mossy_cobblestone"
 # data modify storage scavenger:data PossibleItems append value "glistering_melon_slice"
-# data modify storage scavenger:data PossibleItems append value "fermented_spider_eye"
+data modify storage scavenger:data PossibleItems append value "fermented_spider_eye"
 data modify storage scavenger:data PossibleItems append value "enchanted_golden_apple"
 # data modify storage scavenger:data PossibleItems append value "tropical_fish"
 data modify storage scavenger:data PossibleItems append value "prismarine_crystals"

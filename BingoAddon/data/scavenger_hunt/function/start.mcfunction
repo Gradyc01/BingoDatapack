@@ -24,4 +24,4 @@ function scavenger_hunt:item/get with storage scavenger:data
 #Sequence
 function scavenger_hunt:find_surface with storage scavenger:data
 schedule function scavenger_hunt:buildhut 20s
-schedule function scavenger_hunt:kill 320s
+schedule function scavenger_hunt:kill 620s
