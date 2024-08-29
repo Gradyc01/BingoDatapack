@@ -23,6 +23,7 @@ execute if score ?timer Ascension matches 2..60 as @a[tag=attemptingAscension] r
 execute if score ?timer Ascension matches 1 run function ascension:text/globalannoucement
 execute if score ?timer Ascension matches 1 as @a[tag=attemptingAscension] run function ascension:ascension/tiers/success
 
-execute in overworld positioned as @e[type=armor_stand,tag=AscensionAnchor,limit=1] run execute unless entity @a[tag=attemptingAscension,distance=0..125] run effect give @a[tag=attemptingAscension] wither 4 1 true
-
+execute in overworld positioned as @e[type=armor_stand,tag=AscensionAnchor,limit=1] run execute unless entity @a[tag=attemptingAscension,distance=0..125] run effect give @a[tag=attemptingAscension] wither 4 2 true
+# execute in overworld positioned as @e[type=armor_stand,tag=AscensionAnchor,limit=1] run execute if entity @a[tag=attemptingAscension, distance=100..125] as @s run function ascension:text/warning
+execute in overworld positioned as @e[type=armor_stand,tag=AscensionAnchor,limit=1] as @a[tag=attemptingAscension, distance=112..125] run function ascension:text/warning
 execute as @a[tag=attemptingAscension, limit=1] if score ?timer Ascension matches 1.. run schedule function ascension:ascension/loop 1s

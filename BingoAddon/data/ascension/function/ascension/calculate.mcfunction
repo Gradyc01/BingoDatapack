@@ -8,11 +8,19 @@ scoreboard players set ?2 Ascension 2
 $execute as @s[team=!TeamNone] run scoreboard players operation ?items Ascension = $(team)Score ItemsObtained
 execute as @s[team=TeamNone] run scoreboard players operation ?items Ascension = @s ItemsObtained
 
+##Calculate Ascension Time
 scoreboard players operation ?time Ascension *= ?items Ascension
 scoreboard players operation ?time Ascension += ?defaultTime Ascension
 
+##Calculate Fail Bonus
+scoreboard players operation ?time Ascension *= ?fail_bonus Ascension
+scoreboard players operation ?time Ascension /= ?100 Ascension
+function ascension:ascension/calculate/fail_bonus
+
+##Start The Timer
 scoreboard players operation ?timer Ascension = ?time Ascension
 
+##Calculating Intervals
 scoreboard players operation ?lastQuarter Ascension = ?time Ascension
 scoreboard players operation ?lastQuarter Ascension /= ?4 Ascension
 
