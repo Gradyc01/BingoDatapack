@@ -12,3 +12,4 @@ scoreboard players set @a lightanvil 0
 scoreboard players set @a goldenhead 0
 scoreboard players set @a netherstar_totem 0
 scoreboard players set @a netherstarfirework 0
+function pandora_box:countcraft/reset

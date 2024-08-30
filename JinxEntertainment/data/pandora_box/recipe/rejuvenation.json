@@ -23,7 +23,20 @@
         "minecraft:custom_name": "[{\"text\":\"Pandora's Box: \", \"color\": \"#00FFFF\", \"italic\":false},{\"text\":\"Rejuvenation\", \"color\": \"gold\"}]",
         "minecraft:container_loot": {
           "loot_table": "pandora_box:rejuvenation"
-        }
+        },
+        "custom_data": "{pandora:4}",
+        "minecraft:lore": [
+          "{\"text\":\"Will Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Golden Apple\", \"italic\":false}",
+          "{\"text\":\"  Arrow\", \"italic\":false}",
+          "{\"text\":\"  Anvil\", \"italic\":false}",
+          "{\"text\":\"  Book\", \"italic\":false}",
+          "{\"text\":\"  Enchanting Table\", \"italic\":false}",
+          "{\"text\":\"                    \", \"italic\":false}",
+          "{\"text\":\"May Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Enchanted Golden Apple\", \"italic\":false}",
+          "{\"text\":\"  Enchanted Book\", \"italic\":false}"
+        ]
       }
     }
   }

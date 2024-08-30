@@ -23,7 +23,23 @@
         "minecraft:custom_name": "[{\"text\":\"Pandora's Box: \", \"color\": \"#00FFFF\", \"italic\":false},{\"text\":\"Underground\", \"color\": \"gold\"}]",
         "minecraft:container_loot": {
           "loot_table": "pandora_box:underground"
-        }
+        },
+        "custom_data": "{pandora:3}",
+        "minecraft:lore": [
+          "{\"text\":\"Will Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Diamond\", \"italic\":false}",
+          "{\"text\":\"  Gold Ingot\", \"italic\":false}",
+          "{\"text\":\"  Iron Ingot\", \"italic\":false}",
+          "{\"text\":\"  Lapis Lazuli\", \"italic\":false}",
+          "{\"text\":\"  Copper Ingot\", \"italic\":false}",
+          "{\"text\":\"                    \", \"italic\":false}",
+          "{\"text\":\"May Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Emerald\", \"italic\":false}",
+          "{\"text\":\"  Spawner\", \"italic\":false}",
+          "{\"text\":\"  Enchanted Book\", \"italic\":false}",
+          "{\"text\":\"  Spider Eye\", \"italic\":false}",
+          "{\"text\":\"  Obsidian\", \"italic\":false}"
+        ]
       }
     }
   }

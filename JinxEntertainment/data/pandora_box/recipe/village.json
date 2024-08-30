@@ -23,7 +23,22 @@
         "minecraft:custom_name": "[{\"text\":\"Pandora's Box: \", \"color\": \"#00FFFF\", \"italic\":false},{\"text\":\"Village\", \"color\": \"gold\"}]",
         "minecraft:container_loot": {
           "loot_table": "pandora_box:village"
-        }
+        },
+        "custom_data": "{pandora:1}",
+        "minecraft:lore": [
+          "{\"text\":\"Will Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Emerald\", \"italic\":false}",
+          "{\"text\":\"  Carrot\", \"italic\":false}",
+          "{\"text\":\"  Potato\", \"italic\":false}",
+          "{\"text\":\"  Hay Block\", \"italic\":false}",
+          "{\"text\":\"  Iron Ingot\", \"italic\":false}",
+          "{\"text\":\"                    \", \"italic\":false}",
+          "{\"text\":\"May Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Beetroot Seeds\", \"italic\":false}",
+          "{\"text\":\"  Brewing Stand\", \"italic\":false}",
+          "{\"text\":\"  Bell\", \"italic\":false}",
+          "{\"text\":\"  Diamond Hoe\", \"italic\":false}"
+        ]
       }
     }
   }

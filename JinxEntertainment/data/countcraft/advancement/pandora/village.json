@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "pandora_box:village"
+      }
+    }
+  },
+  "rewards": {
+    "function": "countcraft:crafts/pandora/village"
+  }
+}

@@ -23,7 +23,23 @@
         "minecraft:custom_name": "[{\"text\":\"Pandora's Box: \", \"color\": \"#00FFFF\", \"italic\":false},{\"text\":\"Underworld\", \"color\": \"gold\"}]",
         "minecraft:container_loot": {
           "loot_table": "pandora_box:underworld"
-        }
+        },
+        "custom_data": "{pandora:2}",
+        "minecraft:lore": [
+          "{\"text\":\"Will Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Blaze Rod\", \"italic\":false}",
+          "{\"text\":\"  Magma Cream\", \"italic\":false}",
+          "{\"text\":\"  Ghast Tear\", \"italic\":false}",
+          "{\"text\":\"  Gold Ingot\", \"italic\":false}",
+          "{\"text\":\"  Glowstone Dust\", \"italic\":false}",
+          "{\"text\":\"                    \", \"italic\":false}",
+          "{\"text\":\"May Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Netherite Ingot\", \"italic\":false}",
+          "{\"text\":\"  Obsidian\", \"italic\":false}",
+          "{\"text\":\"  Wither Skeleton Skull\", \"italic\":false}",
+          "{\"text\":\"  Netherite Upgrade Template\", \"italic\":false}",
+          "{\"text\":\"  Soul Stand\", \"italic\":false}"
+        ]
       }
     }
   }

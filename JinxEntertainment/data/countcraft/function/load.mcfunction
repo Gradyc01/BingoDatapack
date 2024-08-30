@@ -280,7 +280,8 @@ data modify storage je:craftcount netherstarfirework append value 1
 data modify storage je:craftcount netherstarfirework append value 1
 data modify storage je:craftcount netherstarfirework append value 1
 #==========================================================
-
+function pandora_box:countcraft/load
+#==========================================================
 function countcraft:resetplayers
 
 

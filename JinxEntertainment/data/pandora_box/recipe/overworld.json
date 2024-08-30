@@ -23,7 +23,29 @@
         "minecraft:custom_name": "[{\"text\":\"Pandora's Box: \", \"color\": \"#00FFFF\", \"italic\":false},{\"text\":\"Overworld\", \"color\": \"gold\"}]",
         "minecraft:container_loot": {
           "loot_table": "pandora_box:overworld"
-        }
+        },
+        "custom_data": "{pandora:5}",
+        "minecraft:lore": [
+          "{\"text\":\"Will Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Ender Pearl\", \"italic\":false}",
+          "{\"text\":\"  Bone\", \"italic\":false}",
+          "{\"text\":\"  Gunpowder\", \"italic\":false}",
+          "{\"text\":\"  Sugar Cane\", \"italic\":false}",
+          "{\"text\":\"  Leather\", \"italic\":false}",
+          "{\"text\":\"                    \", \"italic\":false}",
+          "{\"text\":\"May Contain: \", \"italic\":false, \"color\": \"gold\"}",
+          "{\"text\":\"  Vine\", \"italic\":false}",
+          "{\"text\":\"  Lily Pad\", \"italic\":false}",
+          "{\"text\":\"  Cactus\", \"italic\":false}",
+          "{\"text\":\"  Enchanted Book\", \"italic\":false}",
+          "{\"text\":\"  Mangrove Log\", \"italic\":false}",
+          "{\"text\":\"  Sweet Berries\", \"italic\":false}",
+          "{\"text\":\"  Cocoa Beans\", \"italic\":false}",
+          "{\"text\":\"  Dark Oak Log\", \"italic\":false}",
+          "{\"text\":\"  Brown Mushroom\", \"italic\":false}",
+          "{\"text\":\"  Red Mushroom\", \"italic\":false}",
+          "{\"text\":\"  Rabbit Foot\", \"italic\":false}"
+        ]
       }
     }
   }
