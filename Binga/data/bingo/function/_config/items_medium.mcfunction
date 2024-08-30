@@ -75,3 +75,18 @@ data modify storage bingo:data PossibleItems append value "magma_block"
 data modify storage bingo:data PossibleItems append value "glow_item_frame"
 data modify storage bingo:data PossibleItems append value "turtle_helmet"
 data modify storage bingo:data PossibleItems append value "lead"
+
+#data modify storage bingo:data StainedGlass set value ["white_bed", "gray_bed", "light_gray_bed", "black_bed", "brown_bed", "red_bed","orange_bed", "yellow_bed", "lime_bed", "green_bed", "cyan_bed", "light_blue_bed", "blue_bed", "purple_bed", "magenta_bed", "pink_bed"]
+#$data modify storage bingo:data PossibleItems append from storage bingo:data StainedGlass[$(GlassR)]
+
+data modify storage bingo:data Beds set value ["white_bed", "gray_bed", "light_gray_bed", "black_bed", "brown_bed", "red_bed","orange_bed", "yellow_bed", "lime_bed", "green_bed", "cyan_bed", "light_blue_bed", "blue_bed", "purple_bed", "magenta_bed", "pink_bed"]
+$data modify storage bingo:data PossibleItems append from storage bingo:data Beds[$(BedR)]
+
+data modify storage bingo:data Wools set value ["white_wool", "gray_wool", "light_gray_wool", "black_wool", "brown_wool", "red_wool","orange_wool", "yellow_wool", "lime_wool", "green_wool", "cyan_wool", "light_blue_wool", "blue_wool", "purple_wool", "magenta_wool", "pink_wool"]
+$data modify storage bingo:data PossibleItems append from storage bingo:data Wools[$(WoolR)]
+
+data modify storage bingo:data Concretes set value ["white_concrete", "gray_concrete", "light_gray_concrete", "black_concrete", "brown_concrete", "red_concrete","orange_concrete", "yellow_concrete", "lime_concrete", "green_concrete", "cyan_concrete", "light_blue_concrete", "blue_concrete", "purple_concrete", "magenta_concrete", "pink_concrete"]
+$data modify storage bingo:data PossibleItems append from storage bingo:data Concretes[$(ConcreteR)]
+
+data modify storage bingo:data Candles set value ["white_candle", "gray_candle", "light_gray_candle", "black_candle", "brown_candle", "red_candle","orange_candle", "yellow_candle", "lime_candle", "green_candle", "cyan_candle", "light_blue_candle", "blue_candle", "purple_candle", "magenta_candle", "pink_candle"]
+$data modify storage bingo:data PossibleItems append from storage bingo:data Candles[$(CandleR)]
