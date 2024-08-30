@@ -8,7 +8,16 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:lily_pad",
-            "weight": 25
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":2,
+                  "max":5
+                }
+              }
+            ]
           },
           {
             "type": "minecraft:item",
