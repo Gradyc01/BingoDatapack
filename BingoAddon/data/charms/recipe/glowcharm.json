@@ -18,7 +18,7 @@
     "id": "minecraft:paper",
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:custom_name": "{\"text\":\"Glow Charm\", \"color\":\"#ffd900\"}",
+      "minecraft:custom_name": "{\"text\":\"Glow Charm\", \"color\":\"#ffd900\", \"italic\": false}",
       "minecraft:enchantment_glint_override": true,
       "minecraft:custom_data": "{nobingo:1,glowcharm:1}",
       "minecraft:food": {
@@ -26,7 +26,15 @@
         "saturation": 0,
         "can_always_eat": true,
         "eat_seconds": 1000000
-      }
+      },
+      "minecraft:lore": [
+        "{\"text\":\"Illuminate\"}",
+        "{\"text\":\"       \", \"italic\": false}",
+        "[{\"text\":\"Upon\", \"italic\": false},{\"text\":\" [Right Click]\",\"color\":\"gold\", \"italic\": false}]",
+        "{\"text\":\"  Glows all players \", \"italic\": false}",
+        "{\"text\":\"  within 1000 blocks \", \"italic\": false}",
+        "{\"text\":\"[Consumes Item]\",\"color\":\"dark_green\", \"italic\": false}"
+      ]
     }
   }
   }

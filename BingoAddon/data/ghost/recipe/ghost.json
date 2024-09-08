@@ -20,8 +20,13 @@
     "id": "minecraft:golden_hoe",
     "components": {
       "custom_name": "{\"text\":\"Ghost\", \"color\":\"#00FFFF\", \"italic\": false}",
-      "lore": [
-        "{\"text\":\"Like Clockwork\"}"
+      "minecraft:lore": [
+        "{\"text\":\"Like Clockwork\"}",
+        "{\"text\":\"       \", \"italic\": false}",
+        "[{\"text\":\"Upon\", \"italic\": false},{\"text\":\" [Right Click]\",\"color\":\"gold\", \"italic\": false}]",
+        "{\"text\":\"  You become a ghost floating \", \"italic\": false}",
+        "{\"text\":\"  scouring the world\", \"italic\": false}",
+        "{\"text\":\"[Consumes Item]\",\"color\":\"dark_green\", \"italic\": false}"
       ],
       "minecraft:food": {
         "nutrition": 0,

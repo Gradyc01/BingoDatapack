@@ -21,9 +21,16 @@
     "id": "minecraft:command_block",
         "components": {
         "minecraft:max_stack_size": 1,
-        "minecraft:custom_name": "{\"text\":\"Echolocator\", \"color\":\"#00FFFF\"}",
+        "minecraft:custom_name": "{\"text\":\"Echolocator\", \"color\":\"#00FFFF\", \"italic\": false}",
         "minecraft:enchantment_glint_override": true,
-        "minecraft:custom_data": "{nobingo:1}"
+        "minecraft:custom_data": "{nobingo:1}",
+        "minecraft:lore": [
+        "{\"text\":\"Like Scavenger\"}",
+        "{\"text\":\"       \", \"italic\": false}",
+        "{\"text\":\"  Use this to locate a  \", \"italic\": false}",
+        "{\"text\":\"  specifc biome/structure\", \"italic\": false}",
+        "{\"text\":\"[Crafting Ingredient]\",\"color\":\"dark_green\", \"italic\": false}"
+      ]
         }
     }
   }

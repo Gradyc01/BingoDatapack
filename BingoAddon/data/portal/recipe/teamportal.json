@@ -31,7 +31,13 @@
       "minecraft:max_stack_size": 1,
       "minecraft:custom_name": "{\"text\":\"Team Portal\", \"color\":\"#00FFFF\", \"italic\": false}",
       "minecraft:lore": [
-        "{\"text\":\"Warp\"}"
+        "{\"text\":\"Warp\"}",
+        "{\"text\":\"       \", \"italic\": false}",
+        "[{\"text\":\"Rename this item to the\",\"color\":\"dark_gray\", \"italic\": false},{\"text\":\" Teammate\",\"color\":\"red\", \"italic\": false}]",
+        "[{\"text\":\"Upon\", \"italic\": false},{\"text\":\" [Right Click]\",\"color\":\"gold\", \"italic\": false}]",
+        "{\"text\":\"  Teleports you to the \", \"italic\": false}",
+        "{\"text\":\"  selected in due time\", \"italic\": false}",
+        "{\"text\":\"[2 Minute Cooldown]\",\"color\":\"dark_green\", \"italic\": false}"
       ],
       "custom_data": "{portal:1}",
       "minecraft:enchantment_glint_override": true
