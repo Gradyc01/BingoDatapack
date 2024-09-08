@@ -3,6 +3,7 @@ kill @e[tag=startgame]
 advancement revoke @s only bingoaddon:vil_startgame
 
 execute store result storage scoreboard:queueboard totalPlayers int 1.0 run tag @a add not_ready
+execute store result score totalPlayers booleans run data get storage scoreboard:queueboard totalPlayers
 # execute store result score ?totalPlayers _bingo run tag @a add not_ready
 # tag @a add not_ready
 

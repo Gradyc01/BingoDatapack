@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "X  ",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:armadillo_scute"
+    }
+  },
+  "result": {
+    "id": "minecraft:wolf_armor",
+    "count": 1
+  }
+}

@@ -29,3 +29,7 @@ $recipe $(com) $(sel) pandora_box:rejuvenation
 ##Ability
 $recipe $(com) $(sel) jeweapons:crossbow/mark
 $recipe $(com) $(sel) jeweapons:crossbow/flash
+
+
+##Disabled Recipe
+$recipe take $(sel) aspectofthevoid:aspect_of_the_void

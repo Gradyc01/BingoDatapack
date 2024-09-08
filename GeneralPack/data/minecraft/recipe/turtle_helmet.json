@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:turtle_scute"
+    }
+  },
+  "result": {
+    "id": "minecraft:turtle_helmet",
+    "count": 1
+  }
+}

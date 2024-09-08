@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:slime_ball"
+    },
+    "~": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:lead",
+    "count": 2
+  }
+}

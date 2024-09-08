@@ -22,5 +22,6 @@ function enlightened:loss_enlightened
 # tag @s remove attemptingAscension
 function ascension:reset_player
 tag @s remove food
+tag @s remove playerBonus
 
 function admin:selectorlog {text:" Cleared Success"}
