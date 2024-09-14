@@ -25,7 +25,12 @@
           "minecraft:aqua_affinity": 3
         },
         "minecraft:repair_cost": 998,
-        "minecraft:custom_name": "{\"text\":\"Tarnhelm\", \"color\":\"#FF0000\", \"italic\": false}"
+        "minecraft:custom_name": "{\"text\":\"Tarnhelm\", \"color\":\"#FF0000\", \"italic\": false}",
+        "minecraft:trim": {
+          "material": "minecraft:redstone",
+          "pattern": "minecraft:spire",
+          "show_in_tooltip": false
+        }
       }
     }
   }

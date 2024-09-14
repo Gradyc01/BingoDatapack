@@ -28,7 +28,12 @@
           "minecraft:feather_falling": 4
         },
         "minecraft:repair_cost": 998,
-        "minecraft:custom_name": "{\"text\":\"Seven League Boots\", \"color\":\"#00FFFF\", \"italic\": false}"
+        "minecraft:custom_name": "{\"text\":\"Seven League Boots\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:trim": {
+          "material": "minecraft:iron",
+          "pattern": "minecraft:snout",
+          "show_in_tooltip": false
+        }
       }
     }
   }

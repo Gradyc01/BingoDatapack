@@ -32,7 +32,12 @@
           "minecraft:respiration": 3
         },
         "minecraft:repair_cost": 998,
-        "minecraft:custom_name": "{\"text\":\"Hide of Leviathan\", \"color\":\"#00FFFF\", \"italic\": false}"
+        "minecraft:custom_name": "{\"text\":\"Hide of Leviathan\", \"color\":\"#00FFFF\", \"italic\": false}",
+        "minecraft:trim": {
+          "material": "minecraft:emerald",
+          "pattern": "minecraft:tide",
+          "show_in_tooltip": false
+        }
       }
     }
   }

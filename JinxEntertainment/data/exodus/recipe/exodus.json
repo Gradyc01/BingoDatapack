@@ -31,7 +31,12 @@
         },
         "minecraft:lore": [
             "{\"text\":\"Divine Intervention\"}"
-        ]
+        ],
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:spire",
+          "show_in_tooltip": false
+        }
       }
     }
   }

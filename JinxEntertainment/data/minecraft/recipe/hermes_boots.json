@@ -42,6 +42,11 @@
             "operation": "add_multiplied_base"
           }
         ]
+      },
+      "minecraft:trim": {
+        "material": "minecraft:netherite",
+        "pattern": "minecraft:snout",
+        "show_in_tooltip": false
       }
     }
   }

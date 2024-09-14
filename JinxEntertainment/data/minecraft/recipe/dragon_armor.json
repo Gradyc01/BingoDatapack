@@ -1,33 +1,38 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-      " X ",
-      " W ",
-      "ZYZ"
-    ],
-    "key": {
-      "X": {
-        "item": "minecraft:magma_cream"
-      },
-      "Y": {
-        "tag": "minecraft:anvil"
-      },
-      "Z": {
-        "item": "minecraft:obsidian"
-      },
-      "W": {
-        "item": "minecraft:diamond_chestplate"
-      }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " X ",
+    " W ",
+    "ZYZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:magma_cream"
     },
-    "result": {
-      "id": "minecraft:diamond_chestplate",
-      "components": {
-        "minecraft:custom_name": "{\"text\":\"Dragon Armor\", \"color\":\"#00FFFF\", \"italic\": false}",
-        "minecraft:enchantments": {
-          "minecraft:protection": 4
-        },
-        "minecraft:repair_cost": 998
+    "Y": {
+      "tag": "minecraft:anvil"
+    },
+    "Z": {
+      "item": "minecraft:obsidian"
+    },
+    "W": {
+      "item": "minecraft:diamond_chestplate"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Dragon Armor\", \"color\":\"#00FFFF\", \"italic\": false}",
+      "minecraft:enchantments": {
+        "minecraft:protection": 4
+      },
+      "minecraft:repair_cost": 998,
+      "minecraft:trim": {
+        "material": "minecraft:netherite",
+        "pattern": "minecraft:dune",
+        "show_in_tooltip": false
       }
     }
   }
+}
