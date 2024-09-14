@@ -12,3 +12,4 @@ $recipe $(com) $(sel) minecraft:ominous_bottle
 $recipe $(com) $(sel) minecraft:potion_oozing
 $recipe $(com) $(sel) minecraft:netherstar_totem
 $recipe $(com) $(sel) minecraft:silk_touch_book
+$recipe $(com) $(sel) minecraft:netheritetemplateupgrade

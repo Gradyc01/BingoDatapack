@@ -2,9 +2,9 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-      "ata",
+      " t ",
       "oxo",
-      "bWb"
+      "aWa"
     ],
     "key": {
       "W": {
@@ -21,14 +21,11 @@
       },
       "a": {
         "item": "minecraft:diamond"
-      },
-      "b": {
-        "item": "minecraft:iron_ingot"
       }
     },
     "result": {
     "id": "minecraft:ancient_debris",
-    "count": 1,
+    "count": 2,
     "components": {
         "custom_name": "{\"text\":\"Ancient Artifact\", \"color\":\"#FFFFFF\", \"italic\": false}"
       }

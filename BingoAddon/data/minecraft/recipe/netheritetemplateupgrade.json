@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "# #",
+      "XYX",
+      "ZZZ"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:nether_star"
+      },
+      "Y": {
+        "tag": "minecraft:banners"
+      },
+      "Z": {
+        "item": "minecraft:diamond"
+      },
+      "#": {
+        "item": "minecraft:ancient_debris"
+      }
+    },
+    "result": {
+      "id": "minecraft:netherite_upgrade_smithing_template",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Crimson Artifact\", \"color\":\"light_purple\", \"italic\": false}",
+        "minecraft:enchantment_glint_override": true
+      }
+    }
+  }
